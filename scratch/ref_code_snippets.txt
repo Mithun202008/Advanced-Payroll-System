@@ -1,0 +1,76 @@
+P580 [F=None, S=10.0, C=000000]: Table 5.2 — OOP Concepts Used in RiskLens
+P583 [F=None, S=14.0, C=000000]: 5.2 Key Code Snippets
+P585 [F=None, S=12.0, C=None]: Since RiskLens , is developed by a two-member team, the implementation was divid
+P586 [F=None, S=12.0, C=None]: Only the most important code snippets are included in the main report. The compl
+P588 [F=None, S=None, C=000000]: 5.2.1 Account Creation and Object-Oriented Design
+P590 [F=None, S=12.0, C=None]: This snippet demonstrates object creation using the account hierarchy and illust
+P591 [F=None, S=None, C=1F497D]: Account account;
+P592 [F=None, S=None, C=1F497D]: if (accountType.equalsIgnoreCase("Savings")) {
+P593 [F=None, S=None, C=1F497D]:     account = new SavingsAccount(accountNumber, holderName, balance);
+P594 [F=None, S=None, C=1F497D]: } else {
+P595 [F=None, S=None, C=1F497D]:     account = new CurrentAccount(accountNumber, holderName, balance);
+P596 [F=None, S=None, C=1F497D]: }
+P597 [F=None, S=None, C=1F497D]: account.deposit(amount);
+P599 [F=None, S=12.0, C=None]: Explanation:
+The Account reference can hold objects of either SavingsAccount or 
+P601 [F=None, S=12.0, C=None]: Team Contribution:
+P602 [F=None, S=12.0, C=000000]: SYAMRIT ESWARAN GURUSAMY: Designed the account model and OOP structure. 
+P603 [F=None, S=12.0, C=000000]: S HARSHAVARTHANAN: Integrated account objects with the banking service and user 
+P613 [F=None, S=None, C=000000]: 5.2.2 Risk-Based Fraud Detection
+P615 [F=None, S=12.0, C=None]: The fraud engine evaluates a transaction against multiple rules and calculates a
+P617 [F=None, S=None, C=1F497D]: int totalRisk = 0;List<RiskContribution> contributions = new ArrayList<>();
+P618 [F=None, S=None, C=1F497D]: for (FraudRule rule : fraudRules) {
+P619 [F=None, S=None, C=1F497D]:     RiskContribution contribution = rule.evaluate(transaction, profile);
+P621 [F=None, S=None, C=1F497D]:     if (contribution != null) {
+P622 [F=None, S=None, C=1F497D]:         contributions.add(contribution);
+P623 [F=None, S=None, C=1F497D]:         totalRisk += contribution.points();
+P624 [F=None, S=None, C=1F497D]:     }
+P625 [F=None, S=None, C=1F497D]: }
+P626 [F=None, S=None, C=1F497D]: Decision decision;
+P627 [F=None, S=None, C=1F497D]: if (totalRisk <= 30)
+P628 [F=None, S=None, C=1F497D]:     decision = Decision.ALLOW;else if (totalRisk <= 60)
+P629 [F=None, S=None, C=1F497D]:     decision = Decision.CHALLENGE;else if (totalRisk <= 90)
+P630 [F=None, S=None, C=1F497D]:     decision = Decision.MONITOR;else
+P631 [F=None, S=None, C=1F497D]:     decision = Decision.FREEZE;
+P632 [F=None, S=None, C=1F497D]: return new RiskAssessment(totalRisk, decision, contributions);
+P634 [F=None, S=12.0, C=None]: Explanation:
+Each fraud rule independently evaluates the transaction. The indivi
+P635 [F=None, S=12.0, C=None]: This provides an explainable rule-based decision, because the system retains the
+P637 [F=None, S=12.0, C=None]: Team Contribution:
+P638 [F=None, S=12.0, C=000000]: SYAMRIT ESWARAN GURUSAMY: Implemented the fraud rules and risk-scoring logic. 
+P639 [F=None, S=12.0, C=000000]: S HARSHAVARTHANAN: Integrated the risk assessment with alerts, account actions, 
+P649 [F=None, S=None, C=000000]: 5.2.3 Exception Handling for Invalid Authentication
+P651 [F=None, S=12.0, C=None]: Exception handling is used to prevent invalid operations from terminating the ap
+P653 [F=None, S=None, C=1F497D]: try {
+P654 [F=None, S=None, C=1F497D]:     if (!authService.verifyPin(account, enteredPin)) {
+P655 [F=None, S=None, C=1F497D]:         throw new AuthenticationException("Invalid PIN");
+P656 [F=None, S=None, C=1F497D]:     }
+P658 [F=None, S=None, C=1F497D]:     System.out.println("Authentication successful");
+P660 [F=None, S=None, C=1F497D]: } catch (AuthenticationException e) {
+P661 [F=None, S=None, C=1F497D]:     System.out.println("Authentication failed: " + e.getMessage());
+P662 [F=None, S=None, C=1F497D]: }
+P665 [F=None, S=12.0, C=None]: Explanation:
+The authentication process detects invalid credentials and raises a
+P667 [F=None, S=12.0, C=None]: Team Contribution:
+P668 [F=None, S=12.0, C=000000]: SYAMRIT ESWARAN GURUSAMY: Implemented authentication and security-related except
+P669 [F=None, S=12.0, C=000000]: S HARSHAVARTHANAN: Integrated exception messages and failure handling into the a
+P683 [F=None, S=None, C=000000]: 5.2.4 Asynchronous Event Monitoring
+P686 [F=None, S=12.0, C=None]: RiskLens uses Java concurrency mechanisms for background event processing.
+P688 [F=None, S=None, C=1F497D]: BlockingQueue<Transaction> transactionQueue =                  
+P689 [F=None, S=None, C=1F497D]:         new LinkedBlockingQueue<>();
+P690 [F=None, S=None, C=1F497D]: executorService.submit(() -> {
+P691 [F=None, S=None, C=1F497D]:     while (!Thread.currentThread().isInterrupted()) {
+P692 [F=None, S=None, C=1F497D]:         Transaction transaction = transactionQueue.take();
+P694 [F=None, S=None, C=1F497D]:         RiskAssessment assessment =
+P695 [F=None, S=None, C=1F497D]:                 fraudEngine.evaluate(transaction);
+P697 [F=None, S=None, C=1F497D]:         auditLogger.log(transaction, assessment);
+P698 [F=None, S=None, C=1F497D]:         alertService.process(assessment);
+P699 [F=None, S=None, C=1F497D]:     }
+P700 [F=None, S=None, C=1F497D]: });
+P702 [F=None, S=12.0, C=None]: Explanation:
+Transactions can be placed into a BlockingQueue and processed async
+P704 [F=None, S=12.0, C=None]: Team Contribution:
+P705 [F=None, S=12.0, C=000000]: SYAMRIT ESWARAN GURUSAMY: Developed the fraud-analysis component. 
+P706 [F=None, S=12.0, C=000000]: S HARSHAVARTHANAN: Implemented event monitoring, concurrency integration, alerts
+P718 [F=None, S=14.0, C=000000]: 5.3 User Interface / Demo
+P719 [F=None, S=14.0, C=None]: UserInput:

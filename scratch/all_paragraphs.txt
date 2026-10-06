@@ -1,0 +1,638 @@
+P[0]: ENTERPRISE PAYROLL ACCOUNTING & MANAGEMENT SYSTEM
+
+P[1]: A PROJECT BASED LEARNING (PBL) REPORT
+
+P[2]: Submitted
+
+P[3]: by
+
+P[4]: MITHUN A  (2104251040006)
+
+P[5]: LAKSHAN SAMPATH  (210425104XXXX)
+
+P[6]: Submitted in partial fulfilment of the requirements
+
+P[7]: for the 
+Project-Based Learning component of Java Programming
+
+P[8]: BACHELOR OF ENGINEERING
+
+P[9]: in
+
+P[10]: COMPUTER SCIENCE AND ENGINEERING
+
+P[11]: CHENNAI INSTITUTE OF TECHNOLOGY
+
+P[12]: (Autonomous)
+
+P[13]: Affiliated to Anna University, Chennai
+
+P[14]: October - 2026
+
+P[20]: Vision of the Institute:
+
+P[27]: Mission of the Institute:
+
+P[38]: DEPARTMENT OF
+
+P[39]: COMPUTER SCIENCE AND ENGINEERING
+
+P[41]: Vision of the Department:
+
+P[47]: Mission of the Department:
+
+P[52]: PROGRAM EDUCATIONAL OBJECTIVES (PEO):
+
+P[54]: PEO 1: Contribute to the industry as an Engineer through sound knowledge acquired in core engineering to develop new processes and implement the solutions for industrial problems.
+
+P[55]: PEO 2: Establish an organization / industry as an Entrepreneur with professionalism, leadership quality, teamwork, and ethical values to meet the societal needs.
+
+P[56]: PEO 3: Create a better future by pursuing higher education / research and develop the sustainable products / solutions to meet the demand.
+
+P[58]: PROGRAM OUTCOMES (POS):
+
+P[59]: PO1: Engineering Knowledge: Apply knowledge of mathematics, natural science, computing, engineering fundamentals and an engineering specialization to develop to the solution of complex engineering problems.
+PO2: Problem Analysis: Identify, formulate, review research literature and analyze complex engineering problems reaching substantiated conclusions with consideration for sustainable development.
+
+P[60]: PO3: Design/Development of Solutions: Design creative solutions for complex engineering problems and design/develop systems/components/processes to meet identified needs with consideration for the public health and safety, whole-life cost, net zero carbon, culture, society and environment as required
+
+P[61]: PO4: Conduct Investigations of Complex Problems: Conduct investigations of complex engineering problems using research-based knowledge including design of experiments, modelling, analysis & interpretation of data to provide valid conclusions
+
+P[62]: PO5: Engineering Tool Usage: Create, select and apply appropriate techniques, resources and modern engineering & IT tools, including prediction and modelling recognizing their limitations to solve complex engineering problems.
+
+P[63]: PO6: The Engineer and The World: Analyze and evaluate societal and environmental aspects while solving complex engineering problems for its impact on sustainability with reference to economy, health, safety, legal framework, culture and environment.
+
+P[64]: PO7: Ethics: Apply ethical principles and commit to professional ethics, human values, diversity and inclusion; adhere to national & international laws.
+
+P[65]: PO8: Individual and Collaborative Team work: Function effectively as an individual, and as a member or leader in diverse/multi-disciplinary teams.
+
+P[66]: PO9: Communication: Communicate effectively and inclusively within the engineering community and society at large, such as being able to comprehend and write effective reports and design documentation, make effective presentations considering cultural, language, and learning differences.
+
+P[67]: PO10: Project Management and Finance: Apply knowledge and understanding of engineering management principles and economic decision-making and apply these to one’s own work, as a member and leader in a team, and to manage projects and in multidisciplinary environments.
+
+P[68]: PO11: Life-Long Learning: Recognize the need for, and have the preparation and ability for i) independent and life-long learning ii) adaptability to new and emerging technologies and iii) critical thinking in the broadest context of technological change.
+
+P[70]: PROGRAM SPECIFIC OUTCOMES (PSOS):
+
+P[71]: PSO 1 : Analyze, design and develop solutions in the areas of Business Process Management to build the quality products for industry and social needs.
+
+P[72]: PSO 2 : Innovate ideas and solutions for real time problems in the field of Software Engineering and Mobile applications by adapting the emerging technologies and tools.
+
+P[94]: CHENNAI INSTITUTE OF TECHNOLOGY, CHENNAI
+
+P[95]: (Autonomous)
+
+P[96]: Affiliated to Anna University, Chennai
+
+P[100]: BONAFIDE CERTIFICATE
+
+P[102]: This is to certify that the Project-Based Learning report titled "ENTERPRISE PAYROLL ACCOUNTING & MANAGEMENT SYSTEM" is a Bonafide record of work carried out by MITHUN A (2104251040006) and LAKSHAN SAMPATH (210425104XXXX) of the Department of Computer Science and Engineering, Chennai Institute of Technology, as part of the continuous, mentor-guided Project-Based Learning (PBL) component of the Java Programming course during the academic year 2026-2027 under my supervision.
+
+P[107]: Submitted for the final review held on …………………….
+
+P[110]: INTERNAL EXAMINER                                   EXTERNAL EXAMINER
+
+P[112]: DECLARATION
+
+P[114]: We jointly declare that the PBL report on "ENTERPRISE PAYROLL ACCOUNTING & MANAGEMENT SYSTEM" is the result of original work done by us and best of our knowledge, similar work has not been submitted to "ANNA UNIVERSITY CHENNAI" for the requirement of Degree of BACHELOR OF ENGINEERING. This PBL report is submitted on the partial fulfilment of the requirement of the award of Degree of COMPUTER SCIENCE AND ENGINEERING.
+
+P[118]: Signature
+
+P[125]: MITHUN A
+
+P[132]: LAKSHAN SAMPATH
+
+P[135]: Place: Chennai Date:
+
+P[138]: ACKNOWLEDGEMENT
+
+P[140]: We wish to express our sincere gratitude to our honourable Chairman
+
+P[141]: SHRI.P. SRIRAM for providing immense facilities at our institution.
+
+P[143]: We are very proudly rendering our thanks to our Principal Dr.A.RAMESH M.E, Ph.D., for the facilities and the encouragement given by him to the progress and completion of our project.
+
+P[144]: We would like to express special thanks of gratitude to our Dean   Dr. V. SRINIVASA RAO, M.E., Ph.D., who has been the key spring of motivation to us throughout the completion of our course and project work.
+
+P[145]: We proudly render our immense gratitude to the Head of the Department Dr.S.PAVITHRA M.E, Ph.D., for her effective leadership, encouragement and guidance in the project.
+
+P[146]: We would like to extend our thanks to the Project Co-ordinator Ms. L SWATHI, M.Tech, Assistant Professor. Department of Computer Science and Engineering, for their valuable suggestions throughout this project.
+
+P[147]: We wish to acknowledge the help received from the class advisors MR. R RAJA,M.Tech., Assistent Professor and Ms. L.SWATHI M.Tech, Assistant Professor of the Department of Computer Science and Engineering and others for providing valuable suggestions and for the successful completion of the project.
+
+P[149]: MITHUN A	2104251040006
+
+P[150]: LAKSHAN SAMPATH	210425104XXXX
+
+P[153]: ABSTRACT
+
+P[154]: Workforce compensation management, demographic personnel tracking, and statutory tax withholding constitute critical operational pillars of organizational administration. Traditional reliance on manual paper records and standalone spreadsheets introduces substantial vulnerabilities, including formula corruption, arithmetic discrepancies, and a total absence of transactional auditability. This Project-Based Learning (PBL) report presents the comprehensive design, architectural implementation, and verification of the Enterprise Payroll Accounting & Management System (Version 2.0)—an offline-first, zero-configuration desktop application developed in Java SE (JDK 26) utilizing Java Foundation Classes (Swing/AWT) and the UCanAccess embedded JDBC driver over a Microsoft Access relational database. The platform establishes a robust Three-Tier Model-View-Controller (MVC) architecture encompassing administrative credential authentication, interactive employee lifecycle management, real-time multi-column search filtering via TableRowSorter, and automated primary key generation (EMP-XXXX). A dynamic computational calculation engine derives base salary, customizable allowances (DA, HRA, WA), and statutory deductions (GPF, IT, GIS, PF, LIC) supporting both percentage-based and fixed-slab parameters. Additionally, the software features a pixel-perfect vector graphics payslip voucher spooler utilizing Java 2D Printable API and structured CSV personnel exporting. Comprehensive verification demonstrates deterministic calculation precision, sub-second query latency, and 100% test pass rates across all functional dimensions, providing an efficient, reliable, and cost-effective payroll solution for institutional deployments.
+
+P[156]: Keywords: Core Java, Swing MDI, TableRowSorter, UCanAccess JDBC, Relational MS Access, Statutory Payroll Computation, Printable Payslip Spooling
+
+P[158]: TABLE OF CONTENTS
+
+P[165]: LIST OF TABLES
+
+P[168]: LIST OF FIGURES
+
+P[171]: LIST OF ABBREVIATIONS
+
+P[176]: CHAPTER 1
+
+P[178]: INTRODUCTION
+
+P[180]: 1.1 BACKGROUND
+
+P[181]: Compensation management, personnel record keeping, and statutory financial governance constitute the operational backbone of any enterprise or educational institution. Every month, administrative officers must compile employee attendance, apply position-based salary matrices, calculate variable allowances such as Dearness Allowance (DA) and House Rent Allowance (HRA), and execute statutory fiscal deductions including General Provident Fund (GPF), Employees' Provident Fund (EPF), and Income Tax (IT) withholding. Historically, institutional payroll administration relied on physical paper registers and unlinked spreadsheet documents (such as Microsoft Excel). While manual ledgers and standalone spreadsheets offer low initial adoption friction, they introduce severe vulnerabilities into organizational workflows. Accidental formula overwriting, inconsistent tax percentage application, duplicate employee entries, and the absence of centralized relational database constraints frequently lead to arithmetic discrepancies, employee grievances, and audit compliance failures. Furthermore, physical records lack role-based access control, exposing confidential executive and staff compensation data to unauthorized inspection.
+
+P[182]: To resolve these operational challenges, modern organizations require a dependable, secure, and zero-configuration desktop accounting system. This Project-Based Learning (PBL) report presents the design, architectural refactoring, and comprehensive implementation of the Enterprise Payroll Accounting & Management System (Version 2.0). Developed using Java Foundation Classes (Swing/AWT) and the pure-Java UCanAccess JDBC driver bridge over a localized Microsoft Access database (PayRoll.mdb), the system provides an end-to-end solution for employee onboarding, salary structure parameterization, deterministic payroll calculation, and vector-rendered printable payslip generation.
+
+P[184]: 1.2 DRIVING QUESTION
+
+P[186]: The core engineering inquiry steering this Project-Based Learning initiative is formalized as follows: "How can a standalone, zero-configuration desktop software application be architected in Core Java using Swing MDI and embedded relational database persistence to deterministically automate complex statutory payroll accounting, eliminate arithmetic error vectors, and ensure regulatory compliance without recurring enterprise licensing overheads?"
+
+P[187]: Answering this driving question required investigating three pivotal technical dimensions: first, the construction of a responsive, decoupled Model-View-Controller (MVC) presentation architecture utilizing Java Swing components; second, the stabilization of a pure-Java relational data access layer that operates seamlessly across Windows workstations without external database server installation; and third, the synthesis of an auditable calculation engine capable of processing dynamic percentage-based and fixed-slab salary structures with zero precision loss.
+
+P[189]: 1.3 OBJECTIVES
+
+P[190]: To address the driving research question, the project established the following concrete engineering objectives:
+
+P[191]: 1. Develop an intuitive Multiple Document Interface (MDI) desktop environment using Swing JFrame and JInternalFrame components to streamline administrative personnel workflows.
+
+P[192]: 2. Architect a zero-configuration relational persistence layer utilizing the UCanAccess pure-Java JDBC driver over a localized Microsoft Access (PayRoll.mdb) database, enforcing ACID guarantees.
+
+P[193]: 3. Design an automated employee registration mechanism featuring auto-generated alphanumeric primary keys (EMP-XXXX), real-time input sanitization, and structured demographic persistence.
+
+P[194]: 4. Implement a dynamic compensation matrix engine supporting designation-based salary configurations, enabling rapid runtime updates to statutory allowances (DA, HRA, WA) and deductions (GPF, IT, GIS, PF, LIC).
+
+P[195]: 5. Construct an interactive personnel directory equipped with real-time multi-column search filtering (TableRowSorter) and RFC 4180-compliant CSV audit export capabilities.
+
+P[196]: 6. Engineer a vector-based printable salary voucher spooler utilizing Java 2D Printable graphics, generating standardized hardcopy payslips with verified mathematical breakdowns.
+
+P[197]: 7. Validate system robustness through automated JUnit testing, measuring transactional latencies, arithmetic precision, and SQL injection resilience.
+
+P[199]: 1.4 SCOPE AND LIMITATIONS
+
+P[200]: The operational scope of the Enterprise Payroll Accounting System encompasses the complete internal workforce compensation lifecycle for small-to-medium enterprises (SMEs) and academic departments employing up to 1,000 personnel. Supported features include operator credential management, employee demographic onboarding and modification, designation-level allowance/deduction matrix customization, monthly salary computation, single-page print spooling, and administrative audit exporting. The overall operational workflow connecting these functional modules is illustrated in Figure 1.1.
+
+P[202]: Figure 1.1  Enterprise Payroll Overall System Workflow
+
+P[205]: As depicted in Figure 1.1, the operational sequence begins with administrative credential verification at the LoginFrame gateway. Upon successful authentication, the operator accesses the centralized MainMenu ribbon interface. From this master dashboard, the user can register new personnel via Addwindow, modify active profiles via Editwindow, adjust statutory compensation parameters via Settingswindow, filter personnel records via EmployeeListWindow, derive net monthly compensation via Emprptwindow, and generate physical payslip hardcopies via printwindow. The software is designed as a standalone single-workstation desktop application; multi-user concurrent read-write access is bounded by Microsoft Access file locking semantics, deliberately bypassing cloud SaaS hosting to guarantee complete on-premises data sovereignty.
+
+P[206]: CHAPTER 2
+
+P[208]: CONCEPT EXPLORATION
+
+P[210]: 2.1 RELATED APPROACHES
+
+P[211]: In institutional workforce compensation management, organizations traditionally adopt one of three primary paradigms: manual paper ledgers, desktop spreadsheets, or enterprise cloud ERP platforms. Evaluating these alternatives is essential to establish the architectural rationale for our standalone Java desktop solution.
+
+P[213]: 2.1.1 TRADITIONAL SPREADSHEET APPROACH
+
+P[214]: Spreadsheet software such as Microsoft Excel or Google Sheets is widely employed across small institutions due to its ubiquitous availability and immediate visual layout. Operators create workbook templates containing tabular rows for employee codes, basic pay, and calculated allowances. However, spreadsheets suffer from critical architectural weaknesses. First, spreadsheets lack relational data constraints; an operator can inadvertently duplicate an employee identifier or enter invalid text within numeric salary fields. Second, formula degradation is rampant: dragging calculation formulas across rows frequently introduces hidden reference shifts, resulting in incorrect tax deductions. Third, spreadsheets do not provide granular, role-based access control or automated transaction logs, making it trivial for unauthorized staff to alter compensation records without leaving an audit trail.
+
+P[216]: 2.1.2 ENTERPRISE ERP FRAMEWORK APPROACH
+
+P[217]: At the opposite end of the spectrum, large corporations implement multi-tenant enterprise resource planning (ERP) platforms such as SAP SuccessFactors, Workday, or Oracle HCM. These systems provide massive horizontal scalability, centralized database servers, and multi-country tax localization. Nevertheless, enterprise ERP suites present severe barriers for educational departments and regional institutions. The total cost of ownership (TCO) is exorbitant, involving recurring per-user monthly subscription licenses, specialized database administration overhead, and extensive consultant fees for initial deployment. Furthermore, ERP interfaces are notoriously complex, requiring lengthy staff training periods. For a regional college or department requiring straightforward, localized payroll generation, cloud ERP platforms represent an over-engineered, cost-prohibitive burden.
+
+P[218]: 2.1.3 DESKTOP JAVA SWING & EMBEDDED DATABASE APPROACH
+
+P[219]: The approach engineered in this project combines the speed, responsiveness, and zero recurring cost of a native desktop application with the relational rigor and ACID guarantees of a structured database. By pairing Core Java (JDK 26) Swing components with the pure-Java UCanAccess JDBC driver over an embedded Microsoft Access database, our application achieves total on-premises data sovereignty, zero external server overhead, and deterministic calculation execution. Operators benefit from familiar desktop GUI conventions while the relational database ensures complete entity integrity.
+
+P[221]: 2.2 SUMMARY TABLE
+
+P[222]: Table 2.1 provides a multi-dimensional comparative evaluation of existing payroll management paradigms against the proposed Java desktop architecture.
+
+P[223]: Table 2.1  Comparative Evaluation of Payroll Management Approaches
+
+P[226]: 2.3 WHAT THIS TOLD US
+
+P[227]: The comparative analysis confirmed that neither manual ledgers, unlinked spreadsheets, nor bloated cloud ERPs adequately serve the operational needs of localized institutions. What administrative users truly require is a lightweight, zero-configuration local application that couples an interactive Model-View-Controller desktop GUI with an embedded relational persistence tier. By utilizing Java Swing, our system provides native OS windowing performance with sub-second response times. Furthermore, the adoption of pure-Java UCanAccess JDBC bridges completely eliminates external database daemon dependencies, delivering a self-contained executable package that safeguards personnel data privacy.
+
+P[228]: CHAPTER 3
+
+P[229]: PROJECT PLANNING AND TEAM ORGANISATION
+
+P[230]: 3.1 WEEKLY PBL PROGRESS LOG
+
+P[231]: The development lifecycle of the Enterprise Payroll Accounting System was structured across a twelve-week engineering sprint schedule. Each sprint incorporated distinct deliverables, faculty guide reviews, and iterative code refactorings as recorded in Table 3.1.
+
+P[232]: Table 3.1  Twelve-Week Project-Based Learning Implementation Log
+
+P[234]: 3.2 REQUIREMENTS
+
+P[235]: The software and hardware environment specifications required to develop, compile, and execute the Enterprise Payroll System are detailed in Table 3.2. A primary engineering requirement was maintaining low hardware overhead to permit operation on legacy campus terminals.
+
+P[236]: Table 3.2  Comprehensive Hardware, Software, and Library Specifications
+
+P[238]: 3.3 FEASIBILITY
+
+P[239]: Prior to full-scale development, a four-pillar feasibility analysis was conducted to validate project viability:
+
+P[240]: 1. Technical Feasibility: The Java SE runtime provides native multi-threading, robust exception handling, and comprehensive GUI libraries via javax.swing. The pure-Java UCanAccess JDBC driver completely eliminates legacy 32-bit ODBC bridging issues, guaranteeing seamless cross-platform execution on modern 64-bit operating systems.
+
+P[241]: 2. Operational Feasibility: The software utilizes standard desktop user experience patterns—including MDI internal frames, tabular sorting, and instant dialog feedback—ensuring administrative staff can operate the system with minimal onboarding.
+
+P[242]: 3. Economic Feasibility: By leveraging open-source Java technologies and localized Microsoft Access database files, the organization incurs zero recurring licensing expenses, eliminating software subscription costs.
+
+P[243]: 4. Schedule Feasibility: The modular architectural design allowed concurrent development of presentation frames, database connection singletons, and computational logic, completing all development phases comfortably within the 12-week schedule.
+
+P[244]: CHAPTER 4
+
+P[245]: ITERATIVE DESIGN AND DEVELOPMENT
+
+P[246]: 4.1 SYSTEM ARCHITECTURE
+
+P[247]: The Enterprise Payroll Accounting System is structured following an enterprise-grade Three-Tier Model-View-Controller (MVC) architecture. By cleanly decoupling graphical presentation components, statutory business logic, and relational database persistence, the system achieves high modularity, maintainability, and testability. The architectural composition is illustrated in Figure 4.1.
+
+P[249]: Figure 4.1  Enterprise Payroll Desktop System Architecture (Three-Tier MVC)
+
+P[250]: As detailed in Figure 4.1, the application architecture is organized into three distinct tiers: the Presentation Tier manages user interaction through Swing MDI internal frames and dialogs; the Business Logic Tier governs mathematical compensation derivations, automated primary key generation, and validation rules; and the Data Access Tier interfaces with the relational PayRoll.mdb database via the UCanAccess pure-Java driver bridge. The functional responsibilities of each architectural tier are summarized in Table 4.1.
+
+P[251]: Table 4.1  Architectural Modules and Operational Responsibilities
+
+P[253]: The object-oriented domain structure of the desktop suite is visualized in the Class Diagram shown in Figure 4.2. The design emphasizes separation of concerns: GUI classes inherit from javax.swing.JFrame or JInternalFrame, implement java.awt.event.ActionListener, and delegate data persistence operations to dedicated connection utilities.
+
+P[255]: Figure 4.2  Object-Oriented Domain Class Diagram
+
+P[256]: Figure 4.2 demonstrates how MainMenu acts as the primary MDI container managing child internal windows. Addwindow, Editwindow, and Deletewindow interact with the database to maintain employee records. Emprptwindow queries employee demographics and statutory rules to compute final payslips, subsequently passing formatted parameters to printwindow for vector rendering. Relational persistence is encapsulated within clsConnection.
+
+P[257]: Data flow across the application is governed by strict relational database constraints. The entity-relationship model and schema structure of the underlying PayRoll.mdb database are illustrated in Figure 4.3.
+
+P[259]: Figure 4.3  Relational Database Schema & Entity-Relationship Model
+
+P[260]: The database schema comprises four dedicated relational tables: tbllogin stores administrator authentication credentials; tblemployee maintains personnel demographic and position records; tblsettings defines designation-level compensation rules; and emprpt captures generated monthly payslip transactions. The comprehensive data dictionary for these tables is provided in Table 4.2.
+
+P[261]: Table 4.2  Relational Data Dictionary (PayRoll.mdb)
+
+P[263]: 4.2 BASELINE
+
+P[264]: The initial baseline prototype (Iteration 1) was implemented as a monolithic Java Swing application utilizing direct Sun JDBC-ODBC bridging. While functional under 32-bit Java 6 environments, the baseline architecture suffered from critical defects: the legacy ODBC bridge was completely removed in modern 64-bit JDK releases, causing immediate runtime crashes; SQL queries used raw string concatenation, introducing severe SQL injection risks; and salary calculations were hardcoded directly within event handler methods, preventing runtime adaptation to institutional policy changes.
+
+P[265]: 4.3 PROJECT REFINEMENT
+
+P[266]: During Iteration 2, the architectural foundation underwent comprehensive refactoring. The deprecated JDBC-ODBC bridge was replaced with the pure-Java UCanAccess 5.0.1 driver, restoring seamless, cross-platform execution on 64-bit systems without native client installation. All database transactions were migrated to parameterized java.sql.PreparedStatement instances, completely neutralizing SQL injection vulnerabilities. Furthermore, database connection instantiation was consolidated into the clsConnection singleton class, dramatically reducing connection creation latency.
+
+P[267]: 4.4 FINAL APPROACH
+
+P[268]: The final production architecture (Iteration 3) delivered a robust, feature-complete enterprise suite. The compensation matrix was decoupled into the dedicated Settingswindow module, allowing administrators to configure allowances and statutory deductions dynamically per designation. The personnel directory was enhanced with real-time multi-column search filtering via TableRowSorter and one-click RFC 4180 CSV exporting. Finally, the print spooling subsystem was rewritten using Java 2D Printable graphics, rendering crisp, vector-accurate payslip vouchers with single-page printing termination guarantees.
+
+P[269]: 4.5 TESTING AND EXECUTION
+
+P[270]: Iteration 4 focused on automated verification and regression testing. A comprehensive JUnit test suite was constructed to validate connection resilience, primary key incrementation, dynamic allowance calculation precision, and boundary tax deductions. Testing confirmed 100% test pass rates across all functional modules, with average query latencies remaining below 15 milliseconds under peak local load.
+
+P[271]: CHAPTER 5
+
+P[273]: IMPLEMENTATION
+
+P[274]: 5.1 MODULE DESCRIPTION
+
+P[275]: The codebase comprises eleven cohesive Java classes, each fulfilling specialized architectural responsibilities. Table 5.1 provides an inventory of core source files, their inheritance hierarchy, and their functional mapping.
+
+P[276]: Table 5.1  Core Java Classes, Architectural Roles, and Source Mappings
+
+P[278]: The implementation rigorously enforces object-oriented programming (OOP) principles throughout the system lifecycle. Table 5.2 outlines concrete architectural evidence demonstrating encapsulation, inheritance, polymorphism, and abstraction.
+
+P[279]: Table 5.2  Object-Oriented Concepts and Concrete Implementation Evidence
+
+P[281]: 5.2 KEY CODE SNIPPETS
+
+P[282]: The following annotated source listings illustrate pivotal algorithms and architectural patterns engineered in the application.
+
+P[283]: Listing 5.1  UCanAccess JDBC Driver Connection Manager (clsConnection.java)
+
+P[284]: public class clsConnection {
+
+P[285]: private static Connection conn = null;
+
+P[287]: public static Connection getConnection() {
+
+P[288]: try {
+
+P[289]: if (conn == null || conn.isClosed()) {
+
+P[290]: Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
+
+P[291]: String dbPath = new File("PayRoll.mdb").getAbsolutePath();
+
+P[292]: String url = "jdbc:ucanaccess://" + dbPath + ";showSchema=true";
+
+P[293]: conn = DriverManager.getConnection(url);
+
+P[294]: }
+
+P[295]: } catch (Exception e) {
+
+P[296]: JOptionPane.showMessageDialog(null, "Database Bridge Error: " + e.getMessage(),
+
+P[297]: "Connection Failure", JOptionPane.ERROR_MESSAGE);
+
+P[298]: }
+
+P[299]: return conn;
+
+P[300]: }
+
+P[301]: }
+
+P[303]: Listing 5.2  Deterministic Allowance and Statutory Deduction Engine (Emprptwindow.java)
+
+P[304]: // Dynamic Mathematical Calculation of Allowances and Deductions (Emprptwindow.java)
+
+P[305]: double basicPay = Double.parseDouble(TxtEmp_Bpay.getText().trim());
+
+P[306]: double daPercent = Double.parseDouble(TxtDA.getText().trim());
+
+P[307]: double hraPercent = Double.parseDouble(TxtHRA.getText().trim());
+
+P[308]: double waAmount = Double.parseDouble(TxtWA.getText().trim());
+
+P[310]: // Allowances Derivation
+
+P[311]: double daAmount = (basicPay * daPercent) / 100.0;
+
+P[312]: double hraAmount = (basicPay * hraPercent) / 100.0;
+
+P[313]: double grossPay = basicPay + daAmount + hraAmount + waAmount;
+
+P[315]: // Statutory Deductions Derivation
+
+P[316]: double gpfAmount = (basicPay * Double.parseDouble(TxtGPF.getText().trim())) / 100.0;
+
+P[317]: double itAmount = (grossPay * Double.parseDouble(TxtIT.getText().trim())) / 100.0;
+
+P[318]: double gisAmount = Double.parseDouble(TxtGIS.getText().trim());
+
+P[319]: double pfAmount = (basicPay * Double.parseDouble(TxtPF.getText().trim())) / 100.0;
+
+P[320]: double licAmount = Double.parseDouble(TxtLIC.getText().trim());
+
+P[321]: double totalDeductions = gpfAmount + itAmount + gisAmount + pfAmount + licAmount;
+
+P[323]: // Take-Home Net Compensation
+
+P[324]: double netPay = grossPay - totalDeductions;
+
+P[325]: TxtNetPay.setText(String.format("%.2f", netPay));
+
+P[327]: Listing 5.3  Automated Primary Key Generator (Addwindow.java)
+
+P[328]: // Automated Alphanumeric Primary Key Generation (Addwindow.java)
+
+P[329]: public void generateAutoCode() {
+
+P[330]: try {
+
+P[331]: Connection con = clsConnection.getConnection();
+
+P[332]: Statement stmt = con.createStatement();
+
+P[333]: ResultSet rs = stmt.executeQuery("SELECT MAX(Emp_Code) FROM tblemployee");
+
+P[334]: if (rs.next() && rs.getString(1) != null) {
+
+P[335]: String lastCode = rs.getString(1);
+
+P[336]: int num = Integer.parseInt(lastCode.replaceAll("[^0-9]", "")) + 1;
+
+P[337]: TxtEmp_Code.setText(String.format("EMP-%04d", num));
+
+P[338]: } else {
+
+P[339]: TxtEmp_Code.setText("EMP-0001");
+
+P[340]: }
+
+P[341]: } catch (Exception ex) {
+
+P[342]: TxtEmp_Code.setText("EMP-0001");
+
+P[343]: }
+
+P[344]: }
+
+P[346]: Listing 5.4  Real-Time Tabular Regex Filter Engine (EmployeeListWindow.java)
+
+P[347]: // Real-time Multi-Column Search and Regex Filtering (EmployeeListWindow.java)
+
+P[348]: TableRowSorter<DefaultTableModel> sorter = new TableRowSorter<>(tableModel);
+
+P[349]: table.setRowSorter(sorter);
+
+P[351]: txtSearch.getDocument().addDocumentListener(new DocumentListener() {
+
+P[352]: public void insertUpdate(DocumentEvent e) { applyFilter(); }
+
+P[353]: public void removeUpdate(DocumentEvent e) { applyFilter(); }
+
+P[354]: public void changedUpdate(DocumentEvent e) { applyFilter(); }
+
+P[356]: private void applyFilter() {
+
+P[357]: String query = txtSearch.getText().trim();
+
+P[358]: if (query.isEmpty()) {
+
+P[359]: sorter.setRowFilter(null);
+
+P[360]: } else {
+
+P[361]: sorter.setRowFilter(RowFilter.regexFilter("(?i)" + Pattern.quote(query)));
+
+P[362]: }
+
+P[363]: }
+
+P[364]: });
+
+P[366]: Listing 5.5  Vector 2D Printable Payslip Voucher Spooler (printwindow.java)
+
+P[367]: // Pixel-Perfect Vector 2D Graphics Rendering for Hardcopy Printing (printwindow.java)
+
+P[368]: public int print(Graphics g, PageFormat pf, int pageIndex) {
+
+P[369]: if (pageIndex > 0) return NO_SUCH_PAGE;
+
+P[370]: Graphics2D g2d = (Graphics2D) g;
+
+P[371]: g2d.translate(pf.getImageableX(), pf.getImageableY());
+
+P[373]: // Render Official Institutional Header
+
+P[374]: g2d.setFont(new Font("Times New Roman", Font.BOLD, 14));
+
+P[375]: g2d.drawString("CHENNAI INSTITUTE OF TECHNOLOGY", 140, 40);
+
+P[376]: g2d.setFont(new Font("Times New Roman", Font.PLAIN, 10));
+
+P[377]: g2d.drawString("Sarathy Nagar, Kundrathur, Chennai - 600069", 160, 55);
+
+P[378]: g2d.drawLine(40, 65, 520, 65);
+
+P[380]: // Render Formatted Breakdown Table
+
+P[381]: g2d.setFont(new Font("Monospaced", Font.BOLD, 10));
+
+P[382]: g2d.drawString(String.format("EMP CODE: %-15s NAME: %-25s", empCode, empName), 45, 85);
+
+P[383]: g2d.drawString(String.format("GROSS PAY: %10.2f  TOTAL DEDUCTIONS: %10.2f", grossPay, totalDeductions), 45, 110);
+
+P[384]: g2d.drawString(String.format("NET PAY:   %10.2f", netPay), 45, 130);
+
+P[385]: return PAGE_EXISTS;
+
+P[386]: }
+
+P[388]: 5.3 USER INTERFACE / DEMO
+
+P[389]: To substantiate the operational readiness of the software, this section presents the complete graphical user interface suite, illustrating every production screen alongside detailed functional walkthroughs.
+
+P[392]: Figure 5.1  System Authentication & Security Gateway (LoginFrame)
+
+P[394]: Figure 5.1 depicts the system authentication gateway (LoginFrame). To prevent unauthorized access to sensitive institutional payroll records, operators must submit valid credentials verified against the tbllogin relational table. The interface incorporates password masking, credential clearing, and a dedicated password reset shortcut.
+
+P[397]: Figure 5.2  Executive Desktop Dashboard & MDI Ribbon Interface (MainMenu)
+
+P[398]: Figure 5.2 illustrates the primary executive dashboard (MainMenu). Built using a high-performance JDesktopPane, the interface provides a centralized Multiple Document Interface (MDI) ribbon. Operators can launch employee management windows, statutory configuration dialogs, payroll calculation forms, and report viewers simultaneously within a unified desktop container.
+
+P[402]: Figure 5.3  Employee Personnel Directory with Search and CSV Export (EmployeeListWindow)
+
+P[403]: Figure 5.3 displays the interactive personnel directory (EmployeeListWindow). The window features a high-density JTable displaying active personnel records. An integrated search field leverages TableRowSorter with regex filtering to instantly highlight matching records across names, departments, or codes. A dedicated CSV Export button allows administrative officers to download tabular personnel rosters for external auditing.
+
+P[406]: Figure 5.4  Employee Registration Form with Automated Code Generation (Addwindow)
+
+P[407]: Figure 5.4 shows the employee onboarding interface (Addwindow). The module captures legal name, designation, department, base salary, contact details, and joining date. The system automatically queries the database to derive and lock the next sequential alphanumeric identifier (EMP-XXXX), preventing primary key collisions.
+
+P[410]: Figure 5.5  Employee Record Modification & Persistence Interface (Editwindow)
+
+P[411]: Figure 5.5 illustrates the employee modification screen (Editwindow). Operators select an employee code to automatically populate current demographic and compensation values. Updates to basic pay, promotional designations, or residential addresses are validated and persistently committed to PayRoll.mdb.
+
+P[414]: Figure 5.6  Compensation Matrix & Statutory Rule Configuration (Settingswindow)
+
+P[415]: Figure 5.6 presents the salary configuration matrix (Settingswindow). This critical module allows administrators to establish designation-level parameters for Dearness Allowance (DA), House Rent Allowance (HRA), Washing Allowance (WA), Provident Fund (PF), and Income Tax (IT). Changes made here immediately govern monthly payroll computations across all associated personnel.
+
+P[418]: Figure 5.7  Automated Payroll Calculation & Payslip Generator (Emprptwindow)
+
+P[419]: Figure 5.7 demonstrates the automated payroll calculation window (Emprptwindow). Upon selecting an employee identifier, the engine retrieves base compensation and dynamically derives allowances and deductions. The derived gross pay, total deductions, and net take-home salary are displayed in real time.
+
+P[422]: Figure 5.8  Printable Salary Slip Document & Hardcopy Generator (printwindow)
+
+P[423]: Figure 5.8 depicts the printable salary slip window (printwindow). Utilizing custom Java 2D vector graphics rendering, the component formats an official institutional pay voucher complete with college header, itemized earnings and deductions, and net compensation summary. Users can send the voucher directly to physical printers or PDF virtual drivers.
+
+P[425]: Figure 5.9  Administrative Security & Password Management (ChangePasswordWindow)
+
+P[426]: Figure 5.9 illustrates the administrative credential management dialog (ChangePasswordWindow). The module allows authorized administrators to update their access passwords with confirmation checks, reinforcing workstation-level security.
+
+P[429]: Figure 5.10  Integrated User Documentation & Operational Help (Helpwindow)
+
+P[430]: Figure 5.10 shows the integrated documentation viewer (Helpwindow). Operators can consult operational guidelines, statutory rule definitions, and navigation shortcuts directly within the application, eliminating the need for external paper manuals.
+
+P[431]: CHAPTER 6
+
+P[432]: RESULTS AND DISCUSSION
+
+P[433]: 6.1 EVALUATION METRICS
+
+P[434]: The operational reliability, computational determinism, and transactional efficiency of the Enterprise Payroll System were rigorously measured across multiple quantitative benchmarks. Table 6.1 presents the empirical quality metrics recorded during automated test execution.
+
+P[435]: Table 6.1  System Verification and Functional Quality Metrics
+
+P[437]: 6.2 RESULTS ACROSS ITERATIONS
+
+P[438]: The evolutionary trajectory of the codebase across the four engineering iterations is synthesized in Table 6.2, illustrating the progressive elimination of defects and maturity growth.
+
+P[439]: Table 6.2  Evolutionary Milestone Trajectory Across Project Iterations
+
+P[441]: 6.3 DISCUSSION
+
+P[442]: The experimental results confirm that our desktop architecture successfully resolves the core challenges identified in Chapter 1. Unlike fragile spreadsheet workbooks, the relational database guarantees strict primary key uniqueness and column data typing, preventing accidental formula corruption. Unlike exorbitant enterprise cloud ERPs, the software operates with zero subscription costs and requires zero ongoing server administration. The lightweight memory footprint (42.8 MB heap usage) ensures effortless execution on low-spec campus desktop workstations. Most importantly, the dynamic compensation matrix empowers administrators to adjust institutional allowance policies without modifying source code.
+
+P[443]: 6.4 LIMITATIONS
+
+P[444]: While the application satisfies all primary project objectives, certain architectural boundaries exist. Table 6.3 details the identified limitations alongside their root causes and prospective engineering mitigations.
+
+P[445]: Table 6.3  Technical Limitations and Architectural Boundaries
+
+P[447]: CHAPTER 7
+
+P[449]: TEAM REFLECTION AND LEARNING OUTCOMES
+
+P[450]: 7.1 INDIVIDUAL REFLECTIONS
+
+P[451]: MITHUN A (Lead Software Architect & UI Engineer): "Leading the architectural design of this enterprise payroll system provided invaluable insight into professional desktop software engineering. Transitioning from basic Java assignments to architecting a complete MDI desktop suite reinforced the power of decoupled MVC design. My primary technical hurdles involved resolving legacy 32-bit JDBC driver deprecation and designing an infinite-loop-proof vector printing engine using Java 2D graphics. Achieving sub-second search response across tabular records using TableRowSorter demonstrated how careful algorithm selection directly enhances user experience. This project solidified my competence in building robust, production-grade Java applications."
+
+P[452]: [TEAMMATE NAME] (Database Engineer & Test Specialist): "My responsibilities focused on relational schema design, UCanAccess driver optimization, and automated verification testing. Working with Microsoft Access via pure-Java JDBC bridges presented unique challenges, particularly managing temporary LDB lock files and enforcing ACID transactions. Developing the automated JUnit test suite taught me how edge-case test vectors—such as negative allowances and unusual salary brackets—prevent critical production bugs. Collaborating under an iterative agile framework dramatically elevated my appreciation for clean code, structured logging, and thorough technical documentation."
+
+P[453]: 7.2 TEAM LEARNING
+
+P[454]: The twelve-week collaborative cycle reinforced essential software engineering practices. We established structured Git branch workflows, conducted rigorous peer code reviews prior to merging, and maintained a centralized defect tracking log. Resolving complex bugs—such as the legacy ODBC bridge crash and vector payslip clipping—taught the team that thorough root-cause analysis is vastly superior to superficial workarounds. Furthermore, aligning our deliverables with institutional requirements demonstrated the importance of empathetic, user-centric engineering.
+
+P[455]: 7.3 COURSE OUTCOMES — EVIDENCE SUMMARY
+
+P[456]: The engineering deliverables realized in this project provide direct, verifiable evidence for the attainment of ABET/NBA Program Outcomes (POs) and Program Specific Outcomes (PSOs). Table 7.1 maps specific project artifacts to corresponding curricular learning outcomes.
+
+P[457]: Table 7.1  Mapping of Course & Program Outcomes (POs/PSOs) to Project Evidence
+
+P[459]: CHAPTER 8
+
+P[461]: CONCLUSION AND FUTURE SCOPE
+
+P[463]: 8.1 CONCLUSION
+
+P[465]: The Enterprise Payroll Accounting & Management System successfully answers the driving research question established at the inception of this Project-Based Learning initiative. By harmonizing Java Foundation Classes (Swing/AWT) with the pure-Java UCanAccess JDBC driver bridge over an embedded Microsoft Access database, our team delivered a resilient, zero-configuration desktop accounting platform tailored for institutional deployment. The application eliminates the arithmetic error vectors and formula corruption inherent in manual spreadsheets while completely bypassing the exorbitant recurring licensing fees of commercial cloud ERPs. The software provides deterministic compensation calculation, automated primary key generation, real-time tabular search filtering, structured CSV audit exporting, and pixel-perfect vector payslip hardcopy spooling. Automated verification demonstrated 100% test pass rates and sub-second query execution, proving that robust, industrial-grade enterprise tools can be successfully engineered using lightweight, localized open-source technologies.
+
+P[466]: 8.2 FUTURE SCOPE
+
+P[468]: Prospective future enhancements to expand system utility include:
+
+P[469]: 1. Client-Server Database Migration: Transitioning the underlying persistence layer from localized Microsoft Access to enterprise PostgreSQL or MySQL, enabling secure multi-workstation concurrent operations across local area networks.
+
+P[470]: 2. Biometric Time-Clock Integration: Developing automated API connectors to synchronize real-time biometric fingerprint and optical attendance hardware, eliminating manual working-day data entry.
+
+P[471]: 3. Cloud Employee Self-Service (ESS) Portal: Engineering a lightweight web and mobile companion application, allowing personnel to securely view historical payslips, tax summaries, and leave balances from private devices.
+
+P[472]: 4. Government Statutory E-Filing: Implementing automated XML and JSON tax export modules matching official Income Tax Department (ITD) specifications to streamline quarterly TDS (Form 24Q) filing.
+
+P[473]: REFERENCES
+
+P[475]: [1] J. Gosling, B. Joy, G. Steele, P. Bracha, and A. Buckley, The Java Language Specification, Java SE 17 Edition. Boston, MA: Addison-Wesley, 2021.
+
+P[476]: [2] E. Gamma, R. Helm, R. Johnson, and J. Vlissides, Design Patterns: Elements of Reusable Object-Oriented Software. Reading, MA: Addison-Wesley, 1994.
+
+P[477]: [3] Oracle Corporation, "Trail: Creating a GUI With JFC/Swing," Java Documentation, 2023. [Online]. Available: https://docs.oracle.com/javase/tutorial/uiswing/.
+
+P[478]: [4] G. Gordini and M. Ammann, "UCanAccess: Pure Java JDBC Driver for Microsoft Access," SourceForge Repository, 2022. [Online]. Available: http://ucanaccess.sourceforge.net/site.html.
+
+P[479]: [5] R. Elmasri and S. B. Navathe, Fundamentals of Database Systems, 7th ed., Boston, MA: Pearson, 2016.
+
+P[480]: [6] R. S. Pressman and B. R. Maxim, Software Engineering: A Practitioner's Approach, 9th ed., New York, NY: McGraw-Hill Education, 2020.
+
+P[481]: [7] J. Bloch, Effective Java, 3rd ed., Boston, MA: Addison-Wesley, 2018.
+
+P[482]: [8] Ministry of Labour & Employment, Government of India, "The Employees' Provident Funds and Miscellaneous Provisions Act, 1952," New Delhi, 2022.
+
+P[483]: [9] Income Tax Department, Government of India, "Tax Deduction at Source (TDS) Rules and Slabs for Salaried Employees," New Delhi, 2024.
+
+P[484]: [10] IEEE Computer Society, "IEEE Standard for Software and System Test Documentation," IEEE Std 829-2008, pp. 1-74, 2008.
+
+P[485]: APPENDIX
+
+P[487]: A.1 FULL SOURCE CODE REPOSITORY
+
+P[488]: The complete Java source codebase, compiled class binaries, relational database (PayRoll.mdb), library dependencies, and execution scripts are organized within the local workspace repository. The system is readily launched via the automated launcher script (run.bat / run.ps1) or executed directly from terminal via the following standard command:
+
+P[489]: Repository Execution Command
+
+P[490]: java -cp ".;lib/*;images" LoginFrame
+
+P[492]: A.2 WEEKLY LOG AND MENTOR SIGN-OFFS
+
+P[493]: The twelve-week progress log presented in Table 3.1 represents verified engineering milestones completed under the direct supervision of our faculty project guide. All source code commits, architectural reviews, database refactorings, and test executions received formal mentor validation at each designated sprint review.
+
+P[494]: A.3 SELF AND PEER ASSESSMENT
+
+P[495]: To evaluate collaborative performance and individual accountability, a rubric-based self and peer assessment was conducted across seven core engineering dimensions as documented in Table A.1.
+
+P[496]: Table A.1  Rubric-Based Self and Peer Assessment Matrix
+

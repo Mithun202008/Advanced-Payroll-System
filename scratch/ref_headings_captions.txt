@@ -1,0 +1,104 @@
+P154 [CENTER (1) | sb=None, sa=76200, ls=None | F=None, S=16.0, B=True, I=None, C=000000]: ABSTRACT
+P162 [JUSTIFY (3) | sb=None, sa=None, ls=None | F=None, S=14.0, B=True, I=None, C=000000]: TABLE OF CONTENTS
+P163 [JUSTIFY (3) | sb=0, sa=None, ls=7620 | F=None, S=12.0, B=True, I=None, C=000000]: CHAPTER 1: INTRODUCTION                                                                                  1
+P164 [JUSTIFY (3) | sb=0, sa=None, ls=7620 | F=None, S=12.0, B=None, I=None, C=000000]: 1.1 Background                                                                                                                 1
+P165 [JUSTIFY (3) | sb=0, sa=None, ls=7620 | F=None, S=12.0, B=None, I=None, C=000000]: 1.2 Driving Question                                                                                                         1
+P166 [JUSTIFY (3) | sb=0, sa=None, ls=7620 | F=None, S=12.0, B=None, I=None, C=000000]: 1.3 Objectives                                                                                                                    1
+P167 [JUSTIFY (3) | sb=0, sa=None, ls=7620 | F=None, S=12.0, B=None, I=None, C=000000]: 1.4 Scope and Limitations                                                                                                 1
+P168 [JUSTIFY (3) | sb=0, sa=None, ls=7620 | F=None, S=12.0, B=True, I=None, C=000000]: CHAPTER 2: CONCEPT EXPLORATION                                                                2
+P169 [JUSTIFY (3) | sb=0, sa=None, ls=7620 | F=None, S=12.0, B=None, I=None, C=000000]: 2.1 Related Approaches                                                                                                     2
+P170 [JUSTIFY (3) | sb=0, sa=None, ls=7620 | F=None, S=12.0, B=None, I=None, C=000000]: 2.2 Summary Table                                                                                                            3
+P171 [JUSTIFY (3) | sb=0, sa=None, ls=7620 | F=None, S=12.0, B=None, I=None, C=000000]: 2.3 What This Told Us                                                                                                       3
+P172 [JUSTIFY (3) | sb=0, sa=None, ls=7620 | F=None, S=12.0, B=True, I=None, C=000000]: CHAPTER 3: PROJECT PLANNING AND TEAM ORGANISATION                  5
+P173 [JUSTIFY (3) | sb=0, sa=0, ls=1.5 | F=None, S=12.0, B=None, I=None, C=000000]: 3.1 Weekly PBL Progress Log                                                                     5
+P174 [JUSTIFY (3) | sb=0, sa=None, ls=1.15 | F=None, S=12.0, B=None, I=None, C=000000]: 3.2 Requirements                                                                                                               6
+P175 [JUSTIFY (3) | sb=0, sa=None, ls=1.15 | F=None, S=12.0, B=None, I=None, C=000000]: 3.3 Feasibility                                                                                                                       6
+P176 [JUSTIFY (3) | sb=0, sa=None, ls=7620 | F=None, S=12.0, B=True, I=None, C=000000]: CHAPTER 4: SYSTEM DESIGN AND DEVELOPMENT                                       6
+P177 [JUSTIFY (3) | sb=0, sa=None, ls=7620 | F=None, S=12.0, B=None, I=None, C=000000]: 4.1 System Architecture                                                                                                    6
+P178 [JUSTIFY (3) | sb=0, sa=None, ls=7620 | F=None, S=12.0, B=None, I=None, C=000000]: 4.2 Module 1 — Initial Module Development                                                                  7
+P179 [JUSTIFY (3) | sb=0, sa=None, ls=7620 | F=None, S=12.0, B=None, I=None, C=000000]: 4.3 Module 2 —Functional Module Development and Integration                                  7
+P180 [JUSTIFY (3) | sb=0, sa=None, ls=7620 | F=None, S=12.0, B=None, I=None, C=000000]: 4.4 Final Application Design                                                                                            7
+P181 [JUSTIFY (3) | sb=0, sa=None, ls=7620 | F=None, S=12.0, B=None, I=None, C=000000]: 4.5 Testing and Validation Procedure                                                                               8
+P182 [JUSTIFY (3) | sb=0, sa=None, ls=7620 | F=None, S=12.0, B=True, I=None, C=000000]: CHAPTER 5: IMPLEMENTATION                                                                            9
+P183 [JUSTIFY (3) | sb=0, sa=None, ls=7620 | F=None, S=12.0, B=None, I=None, C=000000]: 5.1 Module Description                                                                                                     9
+P184 [JUSTIFY (3) | sb=0, sa=None, ls=7620 | F=None, S=12.0, B=None, I=None, C=000000]: 5.2 Key Code Snippets                                                                                                     10
+P185 [JUSTIFY (3) | sb=0, sa=None, ls=7620 | F=None, S=12.0, B=None, I=None, C=000000]: 5.3 User Interface                                                                                                             13
+P186 [JUSTIFY (3) | sb=0, sa=None, ls=7620 | F=None, S=12.0, B=True, I=None, C=000000]: CHAPTER 6: RESULTS AND DISCUSSION                                                            14
+P187 [JUSTIFY (3) | sb=0, sa=None, ls=7620 | F=None, S=12.0, B=None, I=None, C=000000]: 6.1 Module-wise Results                                                                                                  14
+P188 [JUSTIFY (3) | sb=0, sa=None, ls=7620 | F=None, S=12.0, B=None, I=None, C=000000]: 6.2 Application Performance Evaluations                                                                        14
+P189 [JUSTIFY (3) | sb=0, sa=None, ls=7620 | F=None, S=12.0, B=None, I=None, C=000000]: 6.3 Results and Discussion                                                                                               15
+P190 [JUSTIFY (3) | sb=0, sa=None, ls=7620 | F=None, S=12.0, B=None, I=None, C=000000]: 6.4 Limitations                                                                                                                  15
+P191 [JUSTIFY (3) | sb=0, sa=None, ls=7620 | F=None, S=12.0, B=True, I=None, C=000000]: CHAPTER 7: TEAM REFLECTION AND LEARNING OUTCOMES                    18
+P192 [JUSTIFY (3) | sb=0, sa=None, ls=7620 | F=None, S=12.0, B=None, I=None, C=000000]: 7.1 Individual Reflections                                                                                                 18
+P193 [JUSTIFY (3) | sb=0, sa=None, ls=7620 | F=None, S=12.0, B=None, I=None, C=000000]: 7.2 Team Learning                                                                                                            18
+P194 [JUSTIFY (3) | sb=0, sa=None, ls=7620 | F=None, S=12.0, B=None, I=None, C=000000]: 7.3 Course Outcomes — Evidence Summary                                                                      19
+P195 [JUSTIFY (3) | sb=0, sa=None, ls=7620 | F=None, S=12.0, B=True, I=None, C=000000]: CHAPTER 8: CONCLUSION AND FUTURE SCOPE                                             21
+P196 [JUSTIFY (3) | sb=0, sa=None, ls=7620 | F=None, S=12.0, B=None, I=None, C=000000]: 8.1 Conclusion                                                                                                                      21
+P197 [JUSTIFY (3) | sb=0, sa=None, ls=7620 | F=None, S=12.0, B=None, I=None, C=000000]: 8.2 Future Scope                                                                                                                21
+P198 [JUSTIFY (3) | sb=0, sa=None, ls=7620 | F=None, S=12.0, B=True, I=None, C=000000]: REFERENCES                                                                                                                22
+P199 [JUSTIFY (3) | sb=0, sa=None, ls=7620 | F=None, S=12.0, B=True, I=None, C=000000]: APPENDIX                                                                                                                       23
+P204 [JUSTIFY (3) | sb=None, sa=76200, ls=None | F=None, S=13.0, B=True, I=None, C=000000]: LIST OF FIGURES
+P236 [CENTER (1) | sb=None, sa=76200, ls=None | F=None, S=13.0, B=True, I=None, C=000000]: LIST OF TABLES
+P252 [None | sb=None, sa=None, ls=None | F=None, S=None, B=None, I=None, C=000000]: LIST OF ABBREVIATIONS
+P305 [None | sb=None, sa=None, ls=None | F=None, S=None, B=None, I=None, C=000000]: CHAPTER 1: INTRODUCTION
+P307 [None | sb=None, sa=None, ls=None | F=None, S=14.0, B=None, I=None, C=000000]: 1.1 Background
+P313 [None | sb=None, sa=None, ls=None | F=None, S=14.0, B=None, I=None, C=000000]: 1.2 Driving Question
+P319 [None | sb=None, sa=None, ls=None | F=None, S=14.0, B=None, I=None, C=000000]: 1.3 Objectives
+P331 [None | sb=None, sa=None, ls=None | F=None, S=14.0, B=None, I=None, C=000000]: 1.4 Scope and Limitations
+P371 [None | sb=None, sa=None, ls=None | F=None, S=14.0, B=None, I=None, C=None]: 1.5 Project Overview
+P373 [JUSTIFY (3) | sb=None, sa=76200, ls=1.25 | F=None, S=12.0, B=None, I=None, C=None]: Figure 1.1 summarises the end-to-end workflow. A transaction request arrives from a user, ATM or other banking channel and is authenticated. A session is established and the Banking Service prepares the transaction. The Behaviour Profile supplies historical context to the Fraud Engine, which executes every Fraud Rule. Each triggered rule returns a RiskContribution; the sum forms the total risk score, which the Decision Engine maps to one of four actions. In parallel, the Audit Logger, Alert Service and Event Monitor record and escalate the outcome, and the Administrator Dashboard presents it.
+P377 [CENTER (1) | sb=None, sa=152400, ls=None | F=None, S=12.0, B=True, I=None, C=12294F]: Figure 1.1 — RiskLens Security and Transaction-Risk Workflow
+P383 [None | sb=None, sa=None, ls=None | F=None, S=14.0, B=None, I=None, C=None]: 1.6 Organisation of the Report
+P391 [None | sb=None, sa=None, ls=None | F=None, S=None, B=None, I=None, C=000000]: CHAPTER 2: CONCEPT EXPLORATION
+P393 [None | sb=None, sa=None, ls=None | F=None, S=14.0, B=None, I=None, C=000000]: 2.1 Related Approaches
+P396 [None | sb=None, sa=None, ls=None | F=None, S=14.0, B=None, I=None, C=000000]: 2.1.1 Traditional Java Application Approach
+P400 [None | sb=None, sa=None, ls=None | F=None, S=14.0, B=None, I=None, C=000000]: 2.1.2 Java Framework-Based Approach
+P404 [None | sb=None, sa=None, ls=None | F=None, S=None, B=True, I=None, C=000000]: 2.1.3 Rule-Based Fraud Detection Approach
+P408 [None | sb=None, sa=None, ls=None | F=None, S=None, B=True, I=None, C=000000]: 2.1.4 Behavior-Aware Security Approach
+P416 [None | sb=None, sa=None, ls=None | F=None, S=14.0, B=None, I=None, C=000000]: 2.2 Summary Table
+P423 [None | sb=None, sa=None, ls=None | F=None, S=14.0, B=None, I=None, C=000000]: 2.3 What This Told Us
+P429 [JUSTIFY (3) | sb=None, sa=None, ls=None | F=None, S=None, B=None, I=None, C=000000]: CHAPTER 3: PROJECT PLANNING AND TEAM ORGANISATION
+P432 [None | sb=None, sa=None, ls=None | F=None, S=14.0, B=None, I=None, C=000000]: 3.1 Weekly PBL Progress Log
+P445 [None | sb=None, sa=None, ls=None | F=None, S=14.0, B=None, I=None, C=000000]: 3.2 Requirements
+P452 [None | sb=None, sa=None, ls=None | F=None, S=14.0, B=None, I=None, C=000000]: 3.3 Feasibility
+P457 [JUSTIFY (3) | sb=None, sa=101600, ls=1.5 | F=None, S=16.0, B=True, I=None, C=000000]: CHAPTER 4: ITERATIVE DESIGN AND DEVELOPMENT
+P459 [None | sb=None, sa=None, ls=None | F=None, S=14.0, B=None, I=None, C=None]: 4.1 System Architecture
+P466 [JUSTIFY (3) | sb=None, sa=76200, ls=1.25 | F=None, S=12.0, B=None, I=None, C=None]: Figure 4.1 groups these components into three layers: input and security, risk processing, and decision and observability.
+P470 [CENTER (1) | sb=None, sa=152400, ls=None | F=None, S=12.0, B=True, I=None, C=000000]: Figure 4.1 — RiskLens System Architecture Diagram
+P479 [None | sb=None, sa=None, ls=None | F=None, S=14.0, B=None, I=None, C=None]: 4.2 Component Descriptions
+P493 [None | sb=None, sa=None, ls=None | F=None, S=14.0, B=None, I=None, C=None]: 4.3 Modules and Responsibilities
+P496 [None | sb=None, sa=None, ls=None | F=None, S=14.0, B=None, I=None, C=None]: 4.4 Class Design
+P504 [CENTER (1) | sb=None, sa=152400, ls=None | F=None, S=12.0, B=True, I=None, C=000000]: Figure 4.2 — RiskLens Class Diagram (principal classes)
+P520 [None | sb=None, sa=None, ls=None | F=None, S=None, B=None, I=None, C=None]: 4.5 Fraud Rules and Risk Contributions
+P525 [CENTER (1) | sb=127000, sa=50800, ls=None | F=None, S=12.0, B=True, I=None, C=000000]: Table 4.2 — Fraud Rules and Risk Contributions
+P530 [None | sb=None, sa=None, ls=None | F=None, S=14.0, B=None, I=None, C=None]: 4.6 Risk Scoring Algorithm
+P550 [None | sb=None, sa=None, ls=None | F=None, S=14.0, B=None, I=None, C=None]: 4.7 Asynchronous Event Monitoring
+P557 [CENTER (1) | sb=None, sa=152400, ls=None | F=None, S=12.0, B=True, I=None, C=000000]: Figure 4.3 — Producer–Consumer Event Monitoring Design
+P561 [None | sb=None, sa=None, ls=None | F=None, S=14.0, B=None, I=None, C=None]: 4.8 Security Design
+P571 [None | sb=None, sa=None, ls=None | F=None, S=None, B=None, I=None, C=000000]: CHAPTER 5: IMPLEMENTATION
+P574 [None | sb=None, sa=None, ls=None | F=None, S=14.0, B=None, I=None, C=None]: 5.1 Core Java Classes
+P575 [LEFT (0) | sb=None, sa=None, ls=None | F=None, S=10.0, B=None, I=None, C=000000]: Table 5.1 — Core Java Classes and Responsibilities
+P578 [None | sb=None, sa=None, ls=None | F=None, S=14.0, B=None, I=None, C=None]: 5.2 Object-Oriented and Java Concepts Used
+P580 [None | sb=None, sa=None, ls=None | F=None, S=10.0, B=None, I=None, C=000000]: Table 5.2 — OOP Concepts Used in RiskLens
+P583 [None | sb=None, sa=None, ls=None | F=None, S=14.0, B=True, I=None, C=000000]: 5.2 Key Code Snippets
+P588 [JUSTIFY (3) | sb=None, sa=None, ls=None | F=None, S=None, B=None, I=None, C=000000]: 5.2.1 Account Creation and Object-Oriented Design
+P613 [JUSTIFY (3) | sb=None, sa=None, ls=None | F=None, S=None, B=None, I=None, C=000000]: 5.2.2 Risk-Based Fraud Detection
+P649 [None | sb=None, sa=None, ls=None | F=None, S=None, B=None, I=None, C=000000]: 5.2.3 Exception Handling for Invalid Authentication
+P683 [None | sb=None, sa=None, ls=None | F=None, S=None, B=None, I=None, C=000000]: 5.2.4 Asynchronous Event Monitoring
+P718 [JUSTIFY (3) | sb=None, sa=None, ls=None | F=None, S=14.0, B=True, I=None, C=000000]: 5.3 User Interface / Demo
+P722 [None | sb=127000, sa=63500, ls=1.15 | F=None, S=None, B=None, I=None, C=000000]: CHAPTER 6: RESULTS AND DISCUSSION
+P724 [None | sb=127000, sa=63500, ls=1.15 | F=None, S=14.0, B=None, I=None, C=None]: 6.1 Evaluation Metrics
+P740 [None | sb=127000, sa=63500, ls=1.15 | F=None, S=14.0, B=None, I=None, C=None]: 6.2 Results Across Iterations
+P751 [None | sb=127000, sa=63500, ls=1.15 | F=None, S=11.0, B=None, I=None, C=000000]: Table 6.3 — Risk Score and Security Decision Mapping
+P755 [None | sb=127000, sa=63500, ls=1.15 | F=None, S=14.0, B=None, I=None, C=None]: 6.3 Discussion
+P780 [None | sb=127000, sa=63500, ls=1.15 | F=None, S=14.0, B=None, I=None, C=None]: 6.4 Limitations
+P818 [None | sb=None, sa=None, ls=None | F=None, S=None, B=None, I=None, C=None]: 6.7 Note on Machine Learning Metrics
+P823 [JUSTIFY (3) | sb=None, sa=None, ls=1.15 | F=None, S=None, B=None, I=None, C=None]: CHAPTER 7: TEAM REFLECTION AND LEARNING OUTCOMES
+P825 [None | sb=127000, sa=63500, ls=1.15 | F=None, S=14.0, B=None, I=None, C=None]: 7.1 Individual Reflections
+P833 [CENTER (1) | sb=None, sa=None, ls=None | F=None, S=14.0, B=True, I=None, C=None]: 7.2 Team Learning
+P867 [None | sb=127000, sa=63500, ls=1.15 | F=None, S=14.0, B=None, I=None, C=None]: 7.3 Course Outcomes — Evidence Summary
+P876 [None | sb=None, sa=None, ls=None | F=None, S=None, B=None, I=None, C=000000]: CHAPTER 8: CONCLUSION AND FUTURE SCOPE
+P878 [CENTER (1) | sb=None, sa=101600, ls=1.5 | F=None, S=14.0, B=True, I=None, C=000000]: 8.1 Conclusion
+P882 [CENTER (1) | sb=None, sa=101600, ls=1.5 | F=None, S=14.0, B=True, I=None, C=000000]: 8.2 Future Scope
+P896 [None | sb=None, sa=None, ls=None | F=None, S=None, B=None, I=None, C=000000]: REFERENCES
+P914 [JUSTIFY (3) | sb=None, sa=None, ls=None | F=None, S=None, B=None, I=None, C=000000]: APPENDIX

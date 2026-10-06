@@ -1,0 +1,34 @@
+# Compiled Java class files
+*.class
+bin/
+target/
+
+# Backup and temporary files
+*.bak
+*.tmp
+*.temp
+*.swp
+*~
+~$*.docx
+~$*.xlsx
+
+# Logs
+*.log
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.iml
+*.project
+*.classpath
+*.settings/
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Temporary scratch unpacking
+scratch/docx_unpack/

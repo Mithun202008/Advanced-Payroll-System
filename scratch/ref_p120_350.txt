@@ -1,0 +1,98 @@
+P122 (align=None): INTERNAL EXAMINER | F=set() S={14.0} B={True} C={'None'}
+P124 (align=LEFT (0)): DECLARATION | F=set() S=set() B={None} C={'None'}
+P126 (align=None): We jointly declare that the PBL report on “ RiskLens: Transaction Risk Scoring with Behavioral Patterns and Adaptive Anomaly Identification | F=set() S={14.0} B={False, None} C={'None'}
+P127 (align=CENTER (1)): ” is the result of original work done by us and best of our knowledge, similar work has not been submitted to “ANNA UNIVERSITY CHENNAI”	for the requirement of Degree of BACHELOR OF ENGINEERING. This PBL report is submitted on the partial fulfillment of the requirement of the award of Degree of COMPUTER	 SCIENCE AND ENGINEERING. | F=set() S={14.0} B={None, True} C={'None'}
+P130 (align=RIGHT (2)): Signature | F=set() S={14.0} B={True} C={'None'}
+P135 (align=None): S HARSHAVARTHANAN | F=set() S={14.0} B={None} C={'000000'}
+P138 (align=None): Place:                                     Chennai Date: | F=set() S={14.0} B={None} C={'None'}
+P140 (align=CENTER (1)): ACKNOWLEDGEMENT | F=set() S=set() B={None} C={'None'}
+P142 (align=None): We wish to express our sincere gratitude to our honourable Chairman | F=set() S=set() B={None} C={'None'}
+P143 (align=None): SHRI.P. SRIRAM for providing immense facilities at our institution. | F=set() S={14.0} B={None, True} C={'None'}
+P145 (align=JUSTIFY (3)): We are very proudly rendering our thanks to our Principal Dr.A.RAMESH M.E, Ph.D., for the facilities and the encouragement given by him to the progress and completion of our project. | F=set() S=set() B={None, True} C={'None'}
+P146 (align=JUSTIFY (3)): We would like to express special thanks of gratitude to our Dean Dr. V. SRINIVASA RAO, M.E., Ph.D., who has been the key spring of motivation to us throughout the completion of our course and project work. | F=set() S=set() B={None, True} C={'None'}
+P147 (align=JUSTIFY (3)): Dr.NANDHAKUMAR  M.E,   Ph.D., Department of Computer Science and Engineering, for their valuable suggestions throughout this project. | F=set() S=set() B={None, True} C={'None'}
+P148 (align=JUSTIFY (3)): We wish to acknowledge the help received from the class advisors | F=set() S=set() B={None} C={'None'}
+P149 (align=JUSTIFY (3)): Dr.DHARANI  M.E, of the Department of Computer Science and Engineering and others for providing valuable suggestions and for the successful completion of the project. | F=set() S=set() B={None, True} C={'None'}
+P152 (align=JUSTIFY (3)): SYAMRIT ESWARAN GURUSAMY                                              2104251041018 | F=set() S={12.0, 14.0} B={None} C={'None'}
+P153 (align=JUSTIFY (3)): S HARSHAVARTHANAN                                                                   210425104080 | F=set() S={12.0, 14.0} B={None} C={'None'}
+P154 (align=CENTER (1)): ABSTRACT | F=set() S={16.0} B={True} C={'000000'}
+P157 (align=JUSTIFY (3)): RiskLens is an educational ATM and digital-banking security simulator developed using Core Java 21 and the Java Standard Library. The system extends a conventional banking application with secure authentication, behavioral profiling, weighted rule-based fraud detection, explainable risk scoring, automated security decisions, concurrent event monitoring and tamper-evident audit logging. Each transaction is evaluated using contextual signals such as transaction amount, velocity, time, terminal history, authentication failures, daily limits, recent PIN changes and cross-channel activity. The resulting risk score is mapped to security decisions such as ALLOW, CHALLENGE, MONITOR and FREEZE, while the contributing reasons are retained for explain-ability. Controlled demonstrations produced risk levels ranging from 0 to 115, including a documented 115-point account-freeze scenario. The project demonstrates how object-oriented programming, Java concurrency, collections, cryptography, file handling and design patterns can be integrated into a cyber-security oriented banking application. | F=set() S={14.0} B={None} C={'None'}
+P159 (align=JUSTIFY (3)): Keywords : [ Core Java 21, Object-Oriented Programming, ATM Security, Fraud Detection, | F=set() S={14.0} B={None, True} C={'000000', 'None'}
+P160 (align=JUSTIFY (3)): Risk Scoring ] | F=set() S={14.0} B={None} C={'000000', 'None'}
+P162 (align=JUSTIFY (3)): TABLE OF CONTENTS | F=set() S={14.0} B={True} C={'000000'}
+P163 (align=JUSTIFY (3)): CHAPTER 1: INTRODUCTION                                                                                  1 | F=set() S={12.0} B={True} C={'000000'}
+P164 (align=JUSTIFY (3)): 1.1 Background                                                                                                                 1 | F=set() S={12.0} B={None} C={'000000'}
+P165 (align=JUSTIFY (3)): 1.2 Driving Question                                                                                                         1 | F=set() S={12.0} B={None} C={'000000'}
+P166 (align=JUSTIFY (3)): 1.3 Objectives                                                                                                                    1 | F=set() S={12.0} B={None} C={'000000'}
+P167 (align=JUSTIFY (3)): 1.4 Scope and Limitations                                                                                                 1 | F=set() S={12.0} B={None} C={'000000'}
+P168 (align=JUSTIFY (3)): CHAPTER 2: CONCEPT EXPLORATION                                                                2 | F=set() S={12.0} B={True} C={'000000'}
+P169 (align=JUSTIFY (3)): 2.1 Related Approaches                                                                                                     2 | F=set() S={12.0} B={None} C={'000000'}
+P170 (align=JUSTIFY (3)): 2.2 Summary Table                                                                                                            3 | F=set() S={12.0} B={None} C={'000000'}
+P171 (align=JUSTIFY (3)): 2.3 What This Told Us                                                                                                       3 | F=set() S={12.0} B={None} C={'000000'}
+P172 (align=JUSTIFY (3)): CHAPTER 3: PROJECT PLANNING AND TEAM ORGANISATION                  5 | F=set() S={12.0} B={True} C={'000000'}
+P173 (align=JUSTIFY (3)): 3.1 Weekly PBL Progress Log                                                                     5 | F=set() S={12.0} B={None} C={'000000'}
+P174 (align=JUSTIFY (3)): 3.2 Requirements                                                                                                               6 | F=set() S={12.0} B={None} C={'000000'}
+P175 (align=JUSTIFY (3)): 3.3 Feasibility                                                                                                                       6 | F=set() S={12.0} B={None} C={'000000'}
+P176 (align=JUSTIFY (3)): CHAPTER 4: SYSTEM DESIGN AND DEVELOPMENT                                       6 | F=set() S={12.0} B={True} C={'000000'}
+P177 (align=JUSTIFY (3)): 4.1 System Architecture                                                                                                    6 | F=set() S={12.0} B={None} C={'000000'}
+P178 (align=JUSTIFY (3)): 4.2 Module 1 — Initial Module Development                                                                  7 | F=set() S={12.0} B={None} C={'000000'}
+P179 (align=JUSTIFY (3)): 4.3 Module 2 —Functional Module Development and Integration                                  7 | F=set() S={12.0} B={None} C={'000000'}
+P180 (align=JUSTIFY (3)): 4.4 Final Application Design                                                                                            7 | F=set() S={12.0} B={None} C={'000000'}
+P181 (align=JUSTIFY (3)): 4.5 Testing and Validation Procedure                                                                               8 | F=set() S={12.0} B={None} C={'000000'}
+P182 (align=JUSTIFY (3)): CHAPTER 5: IMPLEMENTATION                                                                            9 | F=set() S={12.0} B={True} C={'000000'}
+P183 (align=JUSTIFY (3)): 5.1 Module Description                                                                                                     9 | F=set() S={12.0} B={None} C={'000000'}
+P184 (align=JUSTIFY (3)): 5.2 Key Code Snippets                                                                                                     10 | F=set() S={12.0} B={None} C={'000000'}
+P185 (align=JUSTIFY (3)): 5.3 User Interface                                                                                                             13 | F=set() S={12.0} B={None} C={'000000'}
+P186 (align=JUSTIFY (3)): CHAPTER 6: RESULTS AND DISCUSSION                                                            14 | F=set() S={12.0} B={True} C={'000000'}
+P187 (align=JUSTIFY (3)): 6.1 Module-wise Results                                                                                                  14 | F=set() S={12.0} B={None} C={'000000'}
+P188 (align=JUSTIFY (3)): 6.2 Application Performance Evaluations                                                                        14 | F=set() S={12.0} B={None} C={'000000'}
+P189 (align=JUSTIFY (3)): 6.3 Results and Discussion                                                                                               15 | F=set() S={12.0} B={None} C={'000000'}
+P190 (align=JUSTIFY (3)): 6.4 Limitations                                                                                                                  15 | F=set() S={12.0} B={None} C={'000000'}
+P191 (align=JUSTIFY (3)): CHAPTER 7: TEAM REFLECTION AND LEARNING OUTCOMES                    18 | F=set() S={12.0} B={True} C={'000000'}
+P192 (align=JUSTIFY (3)): 7.1 Individual Reflections                                                                                                 18 | F=set() S={12.0} B={None} C={'000000'}
+P193 (align=JUSTIFY (3)): 7.2 Team Learning                                                                                                            18 | F=set() S={12.0} B={None} C={'000000'}
+P194 (align=JUSTIFY (3)): 7.3 Course Outcomes — Evidence Summary                                                                      19 | F=set() S={12.0} B={None} C={'000000'}
+P195 (align=JUSTIFY (3)): CHAPTER 8: CONCLUSION AND FUTURE SCOPE                                             21 | F=set() S={12.0} B={True} C={'000000'}
+P196 (align=JUSTIFY (3)): 8.1 Conclusion                                                                                                                      21 | F=set() S={12.0} B={None} C={'000000'}
+P197 (align=JUSTIFY (3)): 8.2 Future Scope                                                                                                                21 | F=set() S={12.0} B={None} C={'000000'}
+P198 (align=JUSTIFY (3)): REFERENCES                                                                                                                22 | F=set() S={12.0} B={True} C={'000000'}
+P199 (align=JUSTIFY (3)): APPENDIX                                                                                                                       23 | F=set() S={12.0} B={True} C={'000000'}
+P200 (align=JUSTIFY (3)): A.3 Self and Peer Assessment                                                                                           24 | F=set() S={12.0} B={None} C={'000000'}
+P204 (align=JUSTIFY (3)): LIST OF FIGURES | F=set() S={13.0} B={True} C={'000000'}
+P236 (align=CENTER (1)): LIST OF TABLES | F=set() S={13.0} B={True} C={'000000'}
+P252 (align=None): LIST OF ABBREVIATIONS | F=set() S=set() B={None} C={'000000'}
+P305 (align=None): CHAPTER 1: INTRODUCTION | F=set() S=set() B={None} C={'000000'}
+P307 (align=None): 1.1 Background | F=set() S={14.0} B={None} C={'000000'}
+P308 (align=JUSTIFY (3)): Modern banking applications must do more than authenticate customers and execute transactions. Suspicious activity may appear through unusual withdrawal amounts, rapid transactions, unfamiliar terminals, abnormal transaction times, repeated authentication failures or activity across multiple banking channels. | F=set() S={12.0} B={None} C={'None'}
+P309 (align=JUSTIFY (3)): A conventional ATM simulator generally implements basic functions such as authentication, balance enquiry, deposits and withdrawals, but does not demonstrate how transaction context can be continuously evaluated for security risk. | F=set() S={12.0} B={None} C={'None'}
+P310 (align=JUSTIFY (3)): RiskLens addresses this gap by introducing a security intelligence layer around the banking workflow. Instead of treating every authenticated transaction as automatically trustworthy, the system evaluates transaction context using multiple deterministic fraud rules and produces an explainable risk-based decision. | F=set() S={12.0} B={None} C={'None'}
+P311 (align=JUSTIFY (3)): The project is implemented entirely using Core Java 21, making it particularly suitable for demonstrating object-oriented programming, inheritance, interfaces, collections, exception handling, file handling, concurrency, cryptography and design patterns in a practical application. The project documentation confirms that it is an educational Core Java 21 desktop application rather than a production banking system. | F=set() S={12.0} B={None} C={'None'}
+P313 (align=None): 1.2 Driving Question | F=set() S={14.0} B={None} C={'000000'}
+P314 (align=JUSTIFY (3)): “Can a Core Java ATM application automatically evaluate transaction context and convert multiple security signals into an explainable fraud-risk decision?” | F=set() S={12.0} B={None} C={'None'}
+P315 (align=JUSTIFY (3)): This question is narrowed into a practical software-engineering problem: | F=set() S={12.0} B={None} C={'None'}
+P316 (align=JUSTIFY (3)): How can object-oriented Java components, behavioral profiling, security rules, concurrent monitoring and risk scoring be integrated into a single ATM security simulator that can respond differently to normal, suspicious and highly risky transactions? | F=set() S={12.0} B={None} C={'None'}
+P319 (align=None): 1.3 Objectives | F=set() S={14.0} B={None} C={'000000'}
+P320 (align=JUSTIFY (3)): Develop an ATM and digital-banking simulator using Core Java 21 and object-oriented principles. | F=set() S={12.0} B={None} C={'None'}
+P321 (align=JUSTIFY (3)): Implement secure authentication using salted PIN hashing, TOTP verification, lockout and duress-PIN handling. | F=set() S={12.0} B={None} C={'None'}
+P322 (align=JUSTIFY (3)): Design a modular fraud engine using independent weighted fraud-rule strategies. | F=set() S={12.0} B={None} C={'None'}
+P323 (align=JUSTIFY (3)): Generate explainable risk assessments and map them to ALLOW, CHALLENGE, MONITOR and FREEZE decisions. | F=set() S={12.0} B={None} C={'None'}
+P324 (align=JUSTIFY (3)): Implement concurrent monitoring, security alerts and tamper-evident audit logging. | F=set() S={12.0} B={None} C={'None'}
+P325 (align=JUSTIFY (3)): Demonstrate the system using controlled attack and fraud-simulation scenarios. | F=set() S={12.0} B={None} C={'None'}
+P331 (align=None): 1.4 Scope and Limitations | F=set() S={14.0} B={None} C={'000000'}
+P333 (align=None): Scope | F=set() S=set() B={None} C={'000000'}
+P334 (align=None): The system covers: | F=set() S={12.0} B={None} C={'None'}
+P335 (align=None): ATM transactions | F=set() S={12.0} B={None} C={'None'}
+P336 (align=None): Simulated mobile/internet/POS channels | F=set() S={12.0} B={None} C={'None'}
+P337 (align=None): Customer authentication | F=set() S={12.0} B={None} C={'None'}
+P338 (align=None): PIN security | F=set() S={12.0} B={None} C={'None'}
+P339 (align=None): TOTP verification | F=set() S={12.0} B={None} C={'None'}
+P340 (align=None): Session management | F=set() S={12.0} B={None} C={'None'}
+P341 (align=None): Behavioral profiling | F=set() S={12.0} B={None} C={'None'}
+P342 (align=None): Fraud-rule evaluation | F=set() S={12.0} B={None} C={'None'}
+P343 (align=None): Risk scoring | F=set() S={12.0} B={None} C={'None'}
+P344 (align=None): Automated account freeze | F=set() S={12.0} B={None} C={'None'}
+P345 (align=None): Security alerts | F=set() S={12.0} B={None} C={'None'}
+P346 (align=None): Administrator monitoring | F=set() S={12.0} B={None} C={'None'}
+P347 (align=None): Attack simulation | F=set() S={12.0} B={None} C={'None'}
+P348 (align=None): Local persistence | F=set() S={12.0} B={None} C={'None'}
+P349 (align=None): Audit logging | F=set() S={12.0} B={None} C={'000000'}

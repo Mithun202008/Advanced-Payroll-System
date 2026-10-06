@@ -1,0 +1,111 @@
+
+=================== TABLE 0 (4 rows x 3 cols) ===================
+tblPr XML: <w:tblPr xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" 
+Row 0: C0[fill=None, F=None, S=12.0, B=True]: 'Figure No.' | C1[fill=None, F=None, S=12.0, B=True]: 'Title' | C2[fill=None, F=None, S=12.0, B=True]: 'Page'
+Row 1: C0[fill=None, F=None, S=12.0, B=None]: '1.1' | C1[fill=None, F=None, S=12.0, B=None]: 'RiskLens Security and Fraud-De' | C2[fill=None, F=None, S=None, B=None]: '1'
+Row 2: C0[fill=None, F=None, S=12.0, B=None]: '4.1' | C1[fill=None, F=None, S=12.0, B=None]: 'RiskLens System Architecture' | C2[fill=None, F=None, S=None, B=None]: '6'
+Row 3: C0[fill=None, F=None, S=12.0, B=True]: '6.1' | C1[fill=None, F=None, S=12.0, B=None]: 'Application Demonstration Scre' | C2[fill=None, F=None, S=None, B=None]: '14'
+
+=================== TABLE 1 (9 rows x 3 cols) ===================
+tblPr XML: <w:tblPr xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" 
+Row 0: C0[fill=None, F=None, S=12.0, B=True]: 'Table No.' | C1[fill=None, F=None, S=12.0, B=True]: 'Title' | C2[fill=None, F=None, S=12.0, B=True]: 'Page'
+Row 1: C0[fill=None, F=None, S=12.0, B=None]: '3.1' | C1[fill=None, F=None, S=12.0, B=None]: 'Weekly PBL Progress Log' | C2[fill=None, F=None, S=None, B=None]: '5'
+Row 2: C0[fill=None, F=None, S=12.0, B=None]: '3.2' | C1[fill=None, F=None, S=12.0, B=None]: 'Hardware and Software Requirem' | C2[fill=None, F=None, S=None, B=None]: '6'
+Row 3: C0[fill=None, F=None, S=12.0, B=None]: '4.1' | C1[fill=None, F=None, S=12.0, B=None]: 'RiskLens Functional Modules' | C2[fill=None, F=None, S=None, B=None]: '6'
+
+=================== TABLE 2 (15 rows x 2 cols) ===================
+tblPr XML: <w:tblPr xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" 
+Row 0: C0[fill=None, F=None, S=None, B=None]: 'Abbreviation' | C1[fill=None, F=None, S=None, B=None]: 'Expansion'
+Row 1: C0[fill=None, F=None, S=14.0, B=False]: 'API' | C1[fill=None, F=None, S=14.0, B=False]: 'Application Programming Interf'
+Row 2: C0[fill=None, F=None, S=14.0, B=False]: 'ATM' | C1[fill=None, F=None, S=14.0, B=False]: 'Automated Teller Machine'
+Row 3: C0[fill=None, F=None, S=14.0, B=False]: 'GUI' | C1[fill=None, F=None, S=14.0, B=False]: 'Graphical User Interface'
+
+=================== TABLE 3 (6 rows x 3 cols) ===================
+tblPr XML: <w:tblPr xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" 
+Row 0: C0[fill=None, F=None, S=12.0, B=None]: 'Ref.' | C1[fill=None, F=None, S=12.0, B=None]: 'Approach' | C2[fill=None, F=None, S=12.0, B=None]: 'Reported Result / Key Outcome'
+Row 1: C0[fill=None, F=None, S=12.0, B=None]: '[1]' | C1[fill=None, F=None, S=12.0, B=None]: 'Traditional Core Java applicat' | C2[fill=None, F=None, S=12.0, B=None]: 'Provides a lightweight, modula'
+Row 2: C0[fill=None, F=None, S=12.0, B=None]: '[2]' | C1[fill=None, F=None, S=12.0, B=None]: 'Java framework-based approach ' | C2[fill=None, F=None, S=12.0, B=None]: 'Suitable for enterprise web ap'
+Row 3: C0[fill=None, F=None, S=12.0, B=None]: '[3]' | C1[fill=None, F=None, S=12.0, B=None]: 'Rule-based fraud detection usi' | C2[fill=None, F=None, S=12.0, B=None]: 'Produces explainable risk cont'
+
+=================== TABLE 4 (9 rows x 2 cols) ===================
+tblPr XML: <w:tblPr xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" 
+Row 0: C0[fill=None, F=None, S=12.0, B=True]: 'Rule' | C1[fill=None, F=None, S=12.0, B=True]: 'Purpose'
+Row 1: C0[fill=None, F=None, S=12.0, B=None]: 'Amount Rule' | C1[fill=None, F=None, S=12.0, B=None]: 'Detects unusually high transac'
+Row 2: C0[fill=None, F=None, S=12.0, B=None]: 'Velocity Rule' | C1[fill=None, F=None, S=12.0, B=None]: 'Detects several transactions w'
+Row 3: C0[fill=None, F=None, S=12.0, B=None]: 'Time Rule' | C1[fill=None, F=None, S=12.0, B=None]: 'Identifies activity during unu'
+
+=================== TABLE 5 (6 rows x 4 cols) ===================
+tblPr XML: <w:tblPr xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" 
+Row 0: C0[fill=None, F=None, S=12.0, B=None]: 'Week' | C1[fill=None, F=None, S=12.0, B=None]: 'Milestone / Task' | C2[fill=None, F=None, S=12.0, B=None]: 'Work Done' | C3[fill=None, F=None, S=12.0, B=None]: 'Mentor Remarks'
+Row 1: C0[fill=None, F=None, S=12.0, B=None]: '1–2' | C1[fill=None, F=None, S=12.0, B=None]: 'Problem statement, objectives,' | C2[fill=None, F=None, S=12.0, B=None]: 'Identified the limitations of ' | C3[fill=None, F=None, S=None, B=None]: ''
+Row 2: C0[fill=None, F=None, S=12.0, B=None]: '3–4' | C1[fill=None, F=None, S=12.0, B=None]: 'System design and methodology ' | C2[fill=None, F=None, S=12.0, B=None]: 'Designed the modular architect' | C3[fill=None, F=None, S=None, B=None]: ''
+Row 3: C0[fill=None, F=None, S=12.0, B=None]: '5–7' | C1[fill=None, F=None, S=12.0, B=None]: 'Implementation & Testing' | C2[fill=None, F=None, S=12.0, B=None]: 'Implemented Core Java modules ' | C3[fill=None, F=None, S=None, B=None]: ''
+
+=================== TABLE 6 (15 rows x 2 cols) ===================
+tblPr XML: <w:tblPr xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" 
+Row 0: C0[fill=None, F=None, S=12.0, B=None]: 'Category' | C1[fill=None, F=None, S=12.0, B=None]: 'Requiremet'
+Row 1: C0[fill=None, F=None, S=12.0, B=False]: 'Processor / RAM' | C1[fill=None, F=None, S=12.0, B=None]: 'Intel Core i5 or equivalent / '
+Row 2: C0[fill=None, F=None, S=12.0, B=False]: 'Programming Language' | C1[fill=None, F=None, S=12.0, B=False]: 'Java 21'
+Row 3: C0[fill=None, F=None, S=12.0, B=False]: 'Libraries / Frameworks' | C1[fill=None, F=None, S=12.0, B=False]: 'Java Standard Library / Core J'
+
+=================== TABLE 7 (16 rows x 2 cols) ===================
+tblPr XML: <w:tblPr xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" 
+Row 0: C0[fill=None, F=None, S=12.0, B=True]: 'Module' | C1[fill=None, F=None, S=12.0, B=True]: 'Responsibility'
+Row 1: C0[fill=None, F=None, S=None, B=True]: 'Account' | C1[fill=None, F=None, S=None, B=None]: 'Represents a bank account and '
+Row 2: C0[fill=None, F=None, S=None, B=True]: 'SavingsAccount' | C1[fill=None, F=None, S=None, B=None]: 'Implements savings-account-spe'
+Row 3: C0[fill=None, F=None, S=None, B=True]: 'CurrentAccount' | C1[fill=None, F=None, S=None, B=None]: 'Implements current-account-spe'
+
+=================== TABLE 8 (7 rows x 3 cols) ===================
+tblPr XML: <w:tblPr xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" 
+Row 0: C0[fill=None, F=None, S=None, B=True]: 'Fraud Rule' | C1[fill=None, F=None, S=None, B=True]: 'Condition Checked' | C2[fill=None, F=None, S=None, B=True]: 'Indicative Points'
+Row 1: C0[fill=None, F=None, S=None, B=True]: 'UnusualAmountRule' | C1[fill=None, F=None, S=None, B=None]: 'Transaction amount is anomalou' | C2[fill=None, F=None, S=None, B=None]: '30'
+Row 2: C0[fill=None, F=None, S=None, B=True]: 'NewTerminalRule' | C1[fill=None, F=None, S=None, B=None]: 'Terminal is not among the term' | C2[fill=None, F=None, S=None, B=None]: '20'
+Row 3: C0[fill=None, F=None, S=None, B=True]: 'NewChannelRule' | C1[fill=None, F=None, S=None, B=None]: 'Channel differs from the chann' | C2[fill=None, F=None, S=None, B=None]: '20'
+
+=================== TABLE 9 (11 rows x 3 cols) ===================
+tblPr XML: <w:tblPr xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" 
+Row 0: C0[fill=None, F=None, S=None, B=True]: 'Class / Interface' | C1[fill=None, F=None, S=None, B=True]: 'Type' | C2[fill=None, F=None, S=None, B=True]: 'Responsibility'
+Row 1: C0[fill=None, F=None, S=None, B=True]: 'Account' | C1[fill=None, F=None, S=None, B=None]: 'Abstract class' | C2[fill=None, F=None, S=None, B=None]: 'Base account with account numb'
+Row 2: C0[fill=None, F=None, S=None, B=True]: 'SavingsAccount, CurrentAccount' | C1[fill=None, F=None, S=None, B=None]: 'Concrete classes' | C2[fill=None, F=None, S=None, B=None]: 'Account-type-specific rules fo'
+Row 3: C0[fill=None, F=None, S=None, B=True]: 'Transaction' | C1[fill=None, F=None, S=None, B=None]: 'Class' | C2[fill=None, F=None, S=None, B=None]: 'Immutable record of amount, ty'
+
+=================== TABLE 10 (8 rows x 2 cols) ===================
+tblPr XML: <w:tblPr xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" 
+Row 0: C0[fill=None, F=None, S=None, B=True]: 'Concept' | C1[fill=None, F=None, S=None, B=True]: 'Application in RiskLens'
+Row 1: C0[fill=None, F=None, S=None, B=True]: 'Inheritance' | C1[fill=None, F=None, S=None, B=None]: 'Account → SavingsAccount / Cur'
+Row 2: C0[fill=None, F=None, S=None, B=True]: 'Encapsulation' | C1[fill=None, F=None, S=None, B=None]: 'Banking, transaction, session,'
+Row 3: C0[fill=None, F=None, S=None, B=True]: 'Polymorphism' | C1[fill=None, F=None, S=None, B=None]: 'Accounts and fraud rules are h'
+
+=================== TABLE 11 (9 rows x 3 cols) ===================
+tblPr XML: <w:tblPr xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" 
+Row 0: C0[fill=None, F=None, S=12.0, B=True]: 'Metric / Criterion' | C1[fill=None, F=None, S=12.0, B=True]: 'Purpose' | C2[fill=None, F=None, S=12.0, B=True]: 'Relevance to RiskLens'
+Row 1: C0[fill=None, F=None, S=12.0, B=None]: 'Test Cases Passed' | C1[fill=None, F=None, S=12.0, B=None]: 'Measures whether implemented b' | C2[fill=None, F=None, S=12.0, B=None]: 'Validates authentication, tran'
+Row 2: C0[fill=None, F=None, S=12.0, B=None]: 'Functional Scenario Coverage' | C1[fill=None, F=None, S=12.0, B=None]: 'Checks whether important norma' | C2[fill=None, F=None, S=12.0, B=None]: 'Important because SentinelX co'
+Row 3: C0[fill=None, F=None, S=12.0, B=None]: 'Risk-Decision Correctness' | C1[fill=None, F=None, S=12.0, B=None]: 'Verifies whether the calculate' | C2[fill=None, F=None, S=12.0, B=None]: 'Validates the weighted rule-ba'
+
+=================== TABLE 12 (4 rows x 4 cols) ===================
+tblPr XML: <w:tblPr xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" 
+Row 0: C0[fill=None, F=None, S=None, B=True]: 'Version / Stage' | C1[fill=None, F=None, S=None, B=True]: 'Test Cases Passed' | C2[fill=None, F=None, S=None, B=True]: 'Code Coverage' | C3[fill=None, F=None, S=None, B=True]: 'Performance / Response Time'
+Row 1: C0[fill=None, F=None, S=None, B=None]: 'Baseline' | C1[fill=None, F=None, S=None, B=None]: 'Basic authentication, balance ' | C2[fill=None, F=None, S=None, B=None]: '' | C3[fill=None, F=None, S=None, B=None]: ''
+Row 2: C0[fill=None, F=None, S=None, B=None]: 'Project Refinement' | C1[fill=None, F=None, S=None, B=None]: 'PIN lockout, TOTP authenticati' | C2[fill=None, F=None, S=None, B=None]: '' | C3[fill=None, F=None, S=None, B=None]: ''
+Row 3: C0[fill=None, F=None, S=None, B=None]: 'Final Approach' | C1[fill=None, F=None, S=None, B=None]: 'Fraud scenarios, risk escalati' | C2[fill=None, F=None, S=None, B=None]: '' | C3[fill=None, F=None, S=None, B=None]: ''
+
+=================== TABLE 13 (5 rows x 3 cols) ===================
+tblPr XML: <w:tblPr xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" 
+Row 0: C0[fill=None, F=None, S=12.0, B=True]: 'Risk Score' | C1[fill=None, F=None, S=12.0, B=True]: 'Decision' | C2[fill=None, F=None, S=12.0, B=True]: 'System Response'
+Row 1: C0[fill=None, F=None, S=12.0, B=None]: '0 – 30' | C1[fill=None, F=None, S=12.0, B=None]: 'ALLOW' | C2[fill=None, F=None, S=12.0, B=None]: 'Process the transaction normal'
+Row 2: C0[fill=None, F=None, S=12.0, B=None]: '31 – 60' | C1[fill=None, F=None, S=12.0, B=None]: 'CHALLENGE' | C2[fill=None, F=None, S=12.0, B=None]: 'Request additional verificatio'
+Row 3: C0[fill=None, F=None, S=12.0, B=None]: '61 – 90' | C1[fill=None, F=None, S=12.0, B=None]: 'MONITOR' | C2[fill=None, F=None, S=12.0, B=None]: 'Process under close observatio'
+
+=================== TABLE 14 (14 rows x 2 cols) ===================
+tblPr XML: <w:tblPr xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" 
+Row 0: C0[fill=None, F=None, S=12.0, B=None]: 'Course Outcome / Learning Area' | C1[fill=None, F=None, S=12.0, B=None]: 'Concrete Evidence from RiskLen'
+Row 1: C0[fill=None, F=None, S=12.0, B=None]: 'Object-Oriented Programming' | C1[fill=None, F=None, S=12.0, B=None]: 'The project uses an Account ba'
+Row 2: C0[fill=None, F=None, S=12.0, B=None]: 'Abstraction & Polymorphism' | C1[fill=None, F=None, S=12.0, B=None]: 'The FraudRule abstraction allo'
+Row 3: C0[fill=None, F=None, S=12.0, B=None]: 'Encapsulation' | C1[fill=None, F=None, S=12.0, B=None]: 'Banking, transaction, session,'
+
+=================== TABLE 15 (3 rows x 4 cols) ===================
+tblPr XML: <w:tblPr xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" 
+Row 0: C0[fill=None, F=None, S=12.0, B=None]: 'Team Member' | C1[fill=None, F=None, S=12.0, B=None]: 'Self-Rated Contribution (%)' | C2[fill=None, F=None, S=12.0, B=None]: 'Peer-Rated Contribution (%)' | C3[fill=None, F=None, S=12.0, B=None]: 'Remarks'
+Row 1: C0[fill=None, F=None, S=12.0, B=True]: 'SYAMRIT ESWARAN GURUSAMY' | C1[fill=None, F=None, S=12.0, B=None]: '50%' | C2[fill=None, F=None, S=12.0, B=None]: '50%' | C3[fill=None, F=None, S=None, B=None]: ''
+Row 2: C0[fill=None, F=None, S=12.0, B=True]: 'S HARSHAVARTHANAN' | C1[fill=None, F=None, S=12.0, B=None]: '50%' | C2[fill=None, F=None, S=12.0, B=None]: '50%' | C3[fill=None, F=None, S=None, B=None]: ''
